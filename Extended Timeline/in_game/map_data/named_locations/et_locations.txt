@@ -1,0 +1,38 @@
+﻿################
+# Central Asia #
+################
+
+uchquduq = cda100
+zarafshon = 6abb00
+tambybulak = bccc00
+alty_kuduk = 896d00 #Modern Aral
+kyzyl_su = cda101
+huday_dag = 6abb01 #Modern Gumdag
+kyzyl_kala = bccc01 #Including Toprak Kala
+
+#CORRIDORS
+kyzylkum_corridor1 = ffff00
+kyzylkum_corridor2 = ffff01
+kyzylkum_corridor3 = ffff02
+kyzylkum_corridor4 = ffff03
+kyzylkum_corridor5 = ffff04
+kyzylkum_corridor6 = ffff05
+aral_kum_corridor1 = ffff06
+karakum_corridor1 = ffff07
+
+#WASTELANDS
+ust_yurt_plateau3 = 010100
+ust_yurt_plateau4 = 010101
+kyzylkum_desert2 = 010102
+ugam_range1 = 010103
+ugam_range2 = 016D02
+tian_shan16 = 010104
+tian_shan17 = 010105
+hissar_mountains4 = 010106
+tian_shan18 = 010107
+tian_shan19 = 010108
+tian_shan20 = 010109
+tian_shan21 = 01010a
+tian_shan22 = 01010b
+tian_shan23 = 01010c
+tian_shan24 = 01010d
