@@ -4290,11 +4290,11 @@ africa = {
 					sanaga akonolinga abong bertoua
 				}
 				kadey_province = {
-					kadey mambere baoro sangha
+					kadey mambere baoro sangha ouesso nola_congo congo_jungle_et4
 				}
 				boali_province = {
-					boali mbaiki bangui bosobolo
-					congo_jungle
+					boali mbaiki bangui bosobolo impfondo betou
+					congo_jungle_et5 congo_jungle_et6
 				}
 				bouar_province = {
 					bouar pende moissala gbabiri ouham
@@ -4310,8 +4310,10 @@ africa = {
 					djemah kotto mobaye
 				}
 				bomokandi_province = {
-					uele_ca bomokandi isiro dungu
+					uele_ca bomokandi isiro dungu bondo_north
 				}
+				upper_congo_province = { mbandaka lisala bumba kisangani boende kindu ikela walikale 
+				congo_jungle congo_jungle_et7 congo_jungle_et8 congo_jungle_et9 congo_jungle_et10 congo_jungle_et11 congo_jungle_et12 congo_jungle_et13 congo_jungle_et14 }
 			}
 		}
 		kongo_region = {
@@ -4330,11 +4332,11 @@ africa = {
 				ogoowe_benje_province = { adyumba lambarene nguyi ngume rembo igumbi_andele bapunu ncomi lolo }
 				nyanga_province = { olenda conkouati kwilu nyanga sette loeme gabun }
 				moyen_ogoowe_province = {
-					ogoowe_kongo oyem bakele_kongo boowe berato seke_gabun mpongwe
-					niefang_jungle
+					ogoowe_kongo oyem bakele_kongo boowe berato seke_gabun mpongwe makokou
+					niefang_jungle congo_jungle_et1
 				}
 				sangmelima_province = {
-					sangmelima ambam ebibeyin mongomo evinayong
+					sangmelima ambam ebibeyin mongomo evinayong congo_jungle_et3
 				}
 				ogoowe_ivindo_province = { mitsogo_kongo shake_kongo okanja banjabi bateke_kongo gabun_jungle }
 			}
@@ -4342,10 +4344,10 @@ africa = {
 				kouilou_province = { massabo mayumba yumba }
 				niari_province = { ncando madembe makabana apinji lope assan lope_jungle waka_jungle }
 				west_lekumu_province = { ogowe mombote makaka lefini }
-				north_sangha_province = { aduma djundu bobangi bobaka ganda mbaka_jungle }
+				north_sangha_province = { aduma djundu bobangi bobaka ganda makoua_congo mbaka_jungle congo_jungle_et2 }
 				south_sangha_province = { sanga_pumbo pumbo monsol ubangi tumba_ikoko }
 				east_lekumu_province = { ngato ngabo nunu mai_ndombe boma lake_mai_ndombe }
-				chuapa_province = { chuapa fimi lokoro yans bankutu }
+				chuapa_province = { chuapa fimi lokoro yans bankutu congo_jungle_et15 }
 			}
 			west_kongo_area = {
 				kabinda_province = {
@@ -4544,7 +4546,7 @@ africa = {
 				bayuda_province = { ed_debba al_jeblien el_metemma korti omdurman shemkhiya }
 				makuria_province = { dongola abu_hamed berber kerma karima }
 				nobatia_province = { faras daw_sud kalabsha qasr_ibrim sai west_nubian_desert }
-				suakin_province = { suakin aydhab badi deraheib horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert east_nubian_desert }
+				suakin_province = { suakin aydhab badi deraheib horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert east_nubian_desert sahara_passage_et14 }
 			}
 		}
 		somalia_region = {
@@ -4699,7 +4701,7 @@ africa = {
 			wami_area = {
 				lower_pangani_province = { tanga mkwaja pangani usambara vumba_kuu zigula }
 				lower_wami_province = { bagamoyo dakawa misasa utondwe }
-				upper_pangani_province = { arusha east_aasax shambala usangi west_aasax }
+				upper_pangani_province = { arusha east_aasax shambala usangi west_aasax mount_meru }
 				upper_wami_province = { burunge idodomya mpwapwa sandawe }
 				zanzibar_province ={ zanzibar dar_es_salaam ras_mkumbuu }
 			}
@@ -4777,7 +4779,7 @@ africa = {
 			cyrenaica_area = {
 				al_bayda_province = { al_bayda derna tmimi tobruk }
 				barca_province = { benghazi ajdabiya barca el_agheila qaminis }
-				jebel_akhdar_province = { mechili al_khuimat msus suluntah connector_libya9 east_grand_erg_oriental }
+				jebel_akhdar_province = { mechili al_khuimat msus suluntah connector_libya9 east_grand_erg_oriental sahara_passage_et12 }
 			}
 			sinai_area = {
 				al_jifar_province = { el_arish nekhel qatya warrada lake_bardawil northern_sinai_desert1 northern_sinai_desert2 negev_desert }
@@ -4839,7 +4841,7 @@ africa = {
 			}
 			algiers_area = {
 				dahra_province = { mostaganem brashk cherchell tenes }
-				ksour_province = { el_bayadh ain_sefra brezina el_abiodh_sidi_cheikh medrissa naama qal_at_ibn_salama qutb moulouya_corridor1 moulouya_corridor2 moulouya_corridor3 plain_tamlelt1 plain_tamlelt2 plain_tamlelt3 plain_tamlelt4 chott_ech_chergui }
+				ksour_province = { el_bayadh ain_sefra brezina el_abiodh_sidi_cheikh medrissa naama qal_at_ibn_salama qutb moulouya_corridor1 moulouya_corridor3 plain_tamlelt1 plain_tamlelt2 plain_tamlelt3 plain_tamlelt4 chott_ech_chergui plain_of_tamlelt_et1 plain_of_tamlelt_et2 }
 				laghouat_province = { laghouat ain_madhi messaad ouled_djellal }
 				mitidja_province = { algiers medea tablat tamentfoust tablate_mountain }
 				oran_province = { oran arshgul arzew ksar_ibn_senane nedroma tamazaghrane sebkhat_of_oran }
@@ -4871,23 +4873,23 @@ africa = {
 				tripolitania_province = { tripoli al_kadwa al_khums zawiya zliten }
 			}
 			desert_area = {
-				central_sahara = { abalessa djanet ghadames in_amenas sinawin ain_abalessa_corridor abalessa_djanet_corridor djanet_ghadames_corridor ghadames_ouargla_corridor tozeur_ghadames_corridor
-				connector_libya1 connector_libya8 tademait_plateau1 west_grand_erg_oriental1 west_grand_erg_oriental2}
+				central_sahara = { abalessa tamanrasset djanet ghadames in_amenas illizi sinawin ain_abalessa_corridor abalessa_djanet_corridor djanet_ghadames_corridor ghadames_ouargla_corridor
+				connector_libya1 connector_libya8 tademait_plateau1 west_grand_erg_oriental1 west_grand_erg_oriental2 tanezrouft_desert_et1 sahara_passage_et8 tenere_et1 }
 				east_fezzan_province = { al_jawf tazirbu awjila maradah zella connector_libya11 connector_libya15
-				connector_libya10 connector_libya12 connector_libya3 connector_libya6 connector_libya13 calansho_desert coastal_libyan_desert2 coastal_libyan_desert3 }
+				connector_libya10 connector_libya12 connector_libya3 connector_libya6 connector_libya13 calansho_desert coastal_libyan_desert2 coastal_libyan_desert3 sahara_passage_et11 erg_selima_et2 rabyanah }
 				fezzan_province = { sabha brak ghat murzuk sokna ubari zawila coastal_libyan_desert1 murzuk_desert grand_erg_oriental hamada_el_hamra
 				connector_libya4 connector_libya2 connector_libya5 connector_libya17 }
 				gourara_province = { timimoun adrar ain_salah charouine ain_salah_el_golea_corridor timimoun_qulaia_corridor tademait_plateau2 }
 				mzab_province = { ghardaia berriane el_guerrara guettara }
-				oasis_province = { kharga bahariyya baris el_qasr qasr_farafra siwa lake_el_rayan connector_egypt1 connector_egypt2 connector_egypt3 connector_egypt4 connector_egypt7 connector_libya7 connector_libya14 connector_libya16 calansho_sand_sea great_sand_sea }
+				oasis_province = { kharga bahariyya baris el_qasr qasr_farafra siwa jaghbub lake_el_rayan connector_egypt1 connector_egypt2 connector_egypt3 connector_egypt4 connector_egypt7 connector_libya7 connector_libya14 connector_libya16 calansho_sand_sea great_sand_sea great_sand_sea_et1 grand_erg_oriental_et1 }
 				ouargla_province = { ouargla el_golea ngoussa ghardaia_el_golea_corridor ouargla_el_golea_corridor grand_erg_occidental_east1 }
 				saoura_province = { figuig bechar igli tabelbala taghit beni_sabih_tabelbala_corridor ksar_es_souk_bechar_corridor sahel_corridor08 tabelbala_charouine_corridor tabelbala_taghaza_corridor1 tabelbala_taghaza_corridor2 grand_erg_occidental el_djouf5 el_eglab_masif1
-				el_eglab_masif2 }
-				erg_selima_province = { selima connector_egypt5 connector_egypt13 sahel_corridor26 sahel_corridor27 sahel_corridor28 sahel_corridor29 sahel_corridor30 erg_selima south_western_desert }
+				el_eglab_masif2 sahara_passage_et6 sahara_passage_et7 el_djouf_et5 el_eglab_massif_et1 moulouya_corridor2 }
+				erg_selima_province = { selima connector_egypt5 connector_egypt13 sahel_corridor26 sahel_corridor27 sahel_corridor28 sahel_corridor29 sahel_corridor30 erg_selima south_western_desert western_desert_et1 erg_selima_et3 sahara_passage_et13 }
 				touggourt_province = { touggourt asuf debila tamacine touggourt_ouargla_corridor grand_erg_occidental_east2 northern_tedemait }
 			}
 			western_sahara_area = {
-				oued_edhahab_province = { laayoune smara tantan tindouf sahel_corridor31 sahel_corridor32 sahel_corridor33 el_djouf2 el_djouf4 }
+				oued_edhahab_province = { laayoune smara tantan tindouf al_mahbes sahel_corridor31 sahel_corridor32 sahel_corridor33 el_djouf2 el_djouf4 sahara_passage_et3 el_djouf_et3 el_djouf_et4 }
 				saguia_el_hamra_province = { dakhla al_kuwayra aousserd bojador sahel_corridor07 sahel_corridor34 el_djouf1 el_djouf3 }
 			}
 
@@ -4938,7 +4940,7 @@ africa = {
 			}
 			thaba_bosiu_area = {
 				ntsoana_tsatsi_province = { ntsoana_tsatsi bokoni tebang lejweleputswa qwaqwa kweneng }
-				umsobomvu_province = { umsobomvu gariep sinqu karee ixesi umncumuba north_drakensberg_mountains south_drakensberg_mountains }
+				umsobomvu_province = { umsobomvu gariep sinqu karee ixesi umncumuba north_drakensberg_mountains south_drakensberg_mountains drakensberg_mountains_et }
 				thaba_bosiu_province = { thaba_bosiu butha_buthe bataung thaba_nchu }
 				siyancuma_province = { siyancuma ka_aub gmaap thembelihle }
 				eiland_province = { eiland mooi khunwana dithakwaneng taung }
@@ -4952,7 +4954,7 @@ africa = {
 				ai_ais_province = { ai_ais tsau garibams nababeep khai_ma }
 			}
 			kalahari_area = {
-				kuruman_province = { kuruman dithakong nnke setswana }
+				kuruman_province = { kuruman dithakong nnke setswana tsabong werda }
 				khomani_province = { khomani nng nakop bondelswarts hawoben }
 				karas_province = { karas kharooan khowesen ogain tsaris_mountains }
 				kharakhoen_province = { kharakhoen xam khaugoan hoachanas }	
@@ -5016,7 +5018,7 @@ africa = {
 		west_africa_region = {
 			akan_area = {
 				bono_province = { banda_ahenkro bondoukou begho sampa bono_manso dormaa techiman kintampo }
-				asante_province = { goaso fomena kumasi akwatia kibi }
+				asante_province = { goaso fomena kumasi akwatia kibi abengourou }
 				akan_province = { kumawu yeji dambai }
 			}
 			benin_area = {
@@ -5036,12 +5038,12 @@ africa = {
 				takrur_province = { podor walalde sioure golere salde agnam_civol silla }
 				galam_province = { nguidjilone thilogne kanel waounde moudery kaedi matam }
 				bundu_province = { sare_dioulde sutuko }
-				bambouk_province = { diawara ballou saraya }
+				bambouk_province = { ballou saraya bakel }
 			}
 			gambia_area = {
 				casamance_province = { gambia bintang diaboudior casamance marsassoum geregia tankular }
 				kantor_province = { wassu kabakama kodiam kerbatch }
-				kaabu_province = { cacheu farim bissau kaabu bafata iwol salemata }
+				kaabu_province = { cacheu farim bissau kaabu bafata iwol salemata bandafassi }
 			}
 			gold_coast_area = {
 				fante_province = { anomansah cabo_corso winneba mankessim accra akropong }
@@ -5059,11 +5061,11 @@ africa = {
 				}
 				east_igbo_province = {
 					arochukwu kumba ikom afikpo awka_etiti bana
-					korup_jungle
+					korup_jungle oban_hills_et
 				}
 			}
 			gur_area = {
-				dagbon_province = { bole yendi nakpa salaga chamba wulensi }
+				dagbon_province = { bole yendi nakpa salaga wulensi }
 				mamprusi_province = { tirekka djougou bimbilla sokode }
 				borgu_province = { nikki kaiama bussa agbonle }
 				kandi_province = { kandi kouande banikoara sori babana segbana }
@@ -5084,33 +5086,33 @@ africa = {
 			kru_area = {
 				bassa_province = { saint_paul_river mesurado junk_river bassa }
 				grebo_province = { cestos cess settra_kru tabou }
-				kru_province = { san_pedro sassandra fresco grand_lahou guinean_jungle }
+				kru_province = { san_pedro sassandra fresco grand_lahou guinean_jungle guinean_jungle_et1 guinean_jungle_et2 }
 				adjukru_province = { cosrou grand_bassam assinie toumodi }
-				nzima_province = { apollonia axim abengourou hemang }
+				nzima_province = { apollonia axim hemang }
 			}
 			lower_niger_area = {
 				nupe_province = { mokwa bida tada nupeko minna jebba lokoja }
 				south_zazzau_province = { lapai zuba jos kuje }
-				enugu_province = { idah enugu nsukka ugbo ogoja katsina_ala}
+				enugu_province = { idah enugu nsukka ugbo ogoja katsina_ala obudu_plateau_et }
 			}
 			south_manding_area = {
 				bure_province = { nounkonkan kankan kouroussa tabon }
-				wassulu_province = { seydougou odienne kerouane mandiana }
+				wassulu_province = { beyla odienne kerouane mandiana }
 			}
 			upper_guinea_area = {
-				futa_jalon_province = { bandafassi labe gueme_sangan timbo konkoure tuba }
+				futa_jalon_province = { labe gueme_sangan timbo konkoure tuba }
 				guinean_coast_province = { bissagos rio_grande rio_nunez boke rio_pongo iles_de_los }
 				sulimana_province = { yagala falaba kissidougou kamabai kono }
 				temne_province = { scarcies port_loko bunce_island banana_islands yonibana shenge }
 				mende_province = { sherbro_island galinhas segbwema mano cape_mount }
-				kpelle_province = { macenta bopolu sanniquellie beyla }
+				kpelle_province = { macenta bopolu sanniquellie seydougou }
 				dan_province = { gbepleu touba koro }
 			}
 			yoruba_area = {
 				ijebu_province = { eko ikorundu ikosi ijebu_ode epe }
 				oyo_province = { oyo_ile kisi ikoyi igboho saki irawo tede ogbomosho }
 				ife_province = { ede ife ilesa iwo }
-				atakpame_province = { atakpame savalou dassa_zoume sabe }
+				atakpame_province = { atakpame savalou dassa_zoume sabe chamba }
 				igbomina_province = { ilorin offa oke_ila oshogbo }
 			}
 			
@@ -5157,8 +5159,8 @@ africa = {
 				western_adamawa_province = { bauchi wukari kwararafa ibi pankshin nkambe lafia }
 			}
 			air_area = {
-				air_province = { iferouane assode agadez takedda in_gall sahel_corridor01 sahel_corridor21 sahel_corridor22 tenere talak}
-				ader_province = { birni_ader tahoua garadoume deoule abalak kalfou south_talak }
+				air_province = { iferouane assode agadez takedda in_gall arlit in_guezzam sahel_corridor01 sahel_corridor21 sahel_corridor22 tenere talak_desert_et2}
+				ader_province = { birni_ader tahoua deoule abalak kalfou south_talak }
 				marandet_province = { marandet aderbissinat ollelewa }
 			}
 			bornu_area = {
@@ -5178,23 +5180,25 @@ africa = {
 			}
 			gao_area = {
 				hombori_province = { hombori gossi dorey borenta bourem bamba }
-				gao_province = { gao tondibi sahel_corridor12 tadmekka sahel_corridor23 ansongo kukiya }
+				gao_province = { gao tondibi sahel_corridor12 ansongo kukiya talak_desert_et3 sahara_passage_et15 }
 				kissi_province = { kissi_loc deou mondoro aribinda tessit gorouol }
 				namaro_province = { ayerou anzourou dargol gotheye namaro sikieye }
+				ifoghas_province = { tadmekka tessalit timiaouine bordj_badji_mokhtar sahel_corridor23 sahara_passage_et5 talak talak_desert_et1 }
 			}
 			ghana_area = {
-				ghana_province = { koumbi_saleh timbedra nema walata diara balle east_erg_aoukar }
-				tagant_province = { tichit aoudaghost tidjikja sahel_corridor06 sahel_corridor05 sahel_corridor04 sahel_corridor02 erg_aoukar south_erg_amatlich south_el_djouf }
+				ghana_province = { koumbi_saleh timbedra nema walata diara balle east_erg_aoukar sahara_passage_et1 sahara_passage_et2 erg_aoukar_et1 el_djouf_et1 }
+				tagant_province = { tichit aoudaghost tidjikja sahel_corridor06 sahel_corridor05 sahel_corridor04 sahel_corridor02 erg_aoukar south_erg_amatlich south_el_djouf erg_amatlich_et3 }
 				kaarta_province = { nioro tourougoumbe diangounte_camara dioumara kolokani kourouninkoto }
-				khaaso_province = { kayes maghana bakel sandare diamou }
+				khaaso_province = { kayes maghana sandare diamou diawara }
 				arguin_province = { arguin nouamghar nouakchott akjoujt awlil rosso }
-				adrar_province = { atar azougui chingetti wadan idjil erg_amatlich }
+				adrar_province = { atar azougui chingetti wadan idjil erg_amatlich erg_amatlich_et1 erg_amatlich_et2 }
+				assaba_province = { tintane kiffa guerou aleg boutilimit }
 			}
 			kanem_area = {
 				kanem_province = { njimi manan bodou_sailay nguigmi lake_chad }
 				kawar_province = { bilma dirkou djado seguedine fachi agadem sahel_corridor14 sahel_corridor20 erg_of_bilma }
 				mser_province = { mser afade goulfey makary }
-				tibesti_province = { sherda zouar ain_galaka ounianga tekro qatrun sahel_corridor03 sahel_corridor13 sahel_corridor19 sahel_corridor17 sahel_corridor15 sahel_corridor16 sahel_corridor18 rabyanah }
+				tibesti_province = { sherda zouar ain_galaka ounianga tekro qatrun bardai sahel_corridor03 sahel_corridor13 sahel_corridor19 sahel_corridor17 sahel_corridor15 sahel_corridor16 sahel_corridor18 tozeur_ghadames_corridor sahara_passage_et9 rabyanah_sand_sea_et1 erg_of_bilma_et1 erg_selima_et1 sahara_passage_et10}
 				mondo_province = { mondo cherfe ngousa moussoro }
 			}
 			logone_area = {
@@ -5212,7 +5216,7 @@ africa = {
 			}
 			north_hausa_area = {
 				zamfara_province = { birnin_zamfara dutsi talata_mafara gusau funtua }
-				gobir_province = { alkalawa birni_lalle maradi birni_nkonni }
+				gobir_province = { alkalawa birni_lalle maradi birni_nkonni garadoume }
 				katsina_province = { katsina tessawa daura gumel }
 				kebbi_province = { birnin_kebbi surame sokoto goronyo takassaba koko anka }
 			}
@@ -5224,9 +5228,9 @@ africa = {
 			}
 			timbuktu_area = {
 				timbuktu_province = { timbuktu kabara goundam gourma_rharous tindirma sahel_corridor25 }
-				taghaza_province = { taghaza taoudenni araouane sahel_corridor09 sahel_corridor24 sahel_corridor10 sahel_corridor11 tanezrouft east_el_djouf }
+				taghaza_province = { taghaza taoudenni araouane sahel_corridor09 sahel_corridor24 sahel_corridor10 sahel_corridor11 tanezrouft east_el_djouf el_djouf_et2 sahara_passage_et4 tanezrouft_desert_et2 }
 				hayre_province = { douentza bore ngouma arlal bambara_maounde }
-				safare_province = { safare dogo soumpi korientze raz_el_ma gargando }
+				safare_province = { safare dogo soumpi korientze raz_el_ma gargando erg_aoukar_et2 }
 				macina_province = { macina niono sokolo dia tenenkou sanga kare }
 				djenne_province = { djenne san sanekuy bai kanibonzon }
 			}
@@ -5243,7 +5247,7 @@ africa = {
 			}
 			zarma_area = {
 				dosso_province = { dosso loga koure kaouara dongondoutchi }
-				boubon_province = { boubon ouallam goudel tondikandia hamdallaye }
+				boubon_province = { boubon ouallam goudel tondikandia hamdallaye menaka sahara_passage_et16 }
 				tyenga_province = { gaia tounouga tanda yelou }
 				say_province = { say botou makalondi mansila libore }
 			}

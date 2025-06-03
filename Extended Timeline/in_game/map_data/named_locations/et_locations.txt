@@ -158,9 +158,9 @@ sankalakhiri_et = 010140
 borneo_jungle_et1 = 010141
 gaoligongshan_et = 010147
 
-###############
-## Mongolia ##
-###############
+################
+### Mongolia ###
+################
 
 #WASTELANDS
 atas_bogd_mountains_et = 010142
@@ -171,3 +171,129 @@ altay_mountains_et3 = 010146
 saur_et = 010147
 khan_khentii_mountains_et = 010148
 eastern_sayan_mountains_et = 010149
+
+################
+#### Sahara ####
+################
+
+tintane = 896d04
+kiffa = cda105
+guerou = 6abb05
+aleg = bccc05
+boutilimit = 896d05
+al_mahbes = cda106
+tamanrasset = 6abb06
+tessalit = bccc06
+timiaouine = 896d06
+in_guezzam = cda107
+bordj_badji_mokhtar = 6abb07
+arlit = bccc07
+illizi = 896d07
+bardai = cda108
+jaghbub = 6abb08
+menaka = bccc08
+
+#CORRIDORS
+sahara_passage_et1 = ffff18
+sahara_passage_et2 = ffff19
+sahara_passage_et3 = ffff1a
+sahara_passage_et4 = ffff1b
+sahara_passage_et5 = ffff1c
+sahara_passage_et6 = ffff1d
+sahara_passage_et7 = ffff1e
+sahara_passage_et8 = ffff1f
+sahara_passage_et9 = ffff20
+sahara_passage_et10 = ffff21
+sahara_passage_et11 = ffff22
+sahara_passage_et12 = ffff23
+sahara_passage_et13 = ffff24
+sahara_passage_et14 = ffff25
+sahara_passage_et15 = ffff26
+sahara_passage_et16 = ffff27
+
+#WASTELANDS
+erg_amatlich_et1 = 010156
+erg_amatlich_et2 = 010157
+erg_amatlich_et3 = 010158
+erg_aoukar_et1 = 010159
+erg_aoukar_et2 = 01015a
+el_djouf_et1 = 01015b
+el_djouf_et2 = 01015c
+el_djouf_et3 = 01015d
+el_djouf_et4 = 01015e
+el_djouf_et5 = 01015f
+tanezrouft_desert_et1 = 010160
+tanezrouft_desert_et2 = 010161
+talak_desert_et1 = 010162
+talak_desert_et2 = 010163
+talak_desert_et3 = 010164
+plain_of_tamlelt_et1 = 010165
+plain_of_tamlelt_et2 = 010166
+el_eglab_massif_et1 = 010167
+tenere_et1 = 010168
+erg_of_bilma_et1 = 010169
+rabyanah_sand_sea_et1 = 01016a
+erg_selima_et1 = 01016b
+erg_selima_et2 = 01016c
+erg_selima_et3 = 01016d
+great_sand_sea_et1 = 01016e
+grand_erg_oriental_et1 = 01016f
+western_desert_et1 = 010170
+
+###############
+# West Africa #
+###############
+
+#WASTELANDS
+oban_hills_et = 010171
+obudu_plateau_et = 010172
+guinean_jungle_et1 = 010173
+guinean_jungle_et2 = 010174
+
+##################
+# Central Africa #
+##################
+
+impfondo = 896d08
+betou = cda109
+nola_congo = 6abb09
+ouesso = bccc09
+makokou = 896d09
+makoua_congo = cda10a
+mbandaka = 6abb0a
+lisala = bccc0a
+bumba = 896d0a
+kisangani = cda10b
+bondo_north = 6abb0b
+boende = bccc0b
+kindu = 896d0b
+ikela = cda10c
+walikale = 6abb0c
+
+#WASTELANDS
+congo_jungle_et1 = 010175
+congo_jungle_et2 = 010176
+congo_jungle_et3 = 010177
+congo_jungle_et4 = 010178
+congo_jungle_et5 = 010179
+congo_jungle_et6 = 01017a
+congo_jungle_et7 = 01017b
+congo_jungle_et8 = 01017c
+congo_jungle_et9 = 01017d
+congo_jungle_et10 = 01017e
+congo_jungle_et11 = 01017f
+congo_jungle_et12 = 010180
+congo_jungle_et13 = 010181
+congo_jungle_et14 = 010182
+congo_jungle_et15 = 010183
+mount_meru = 010185
+
+################
+# South Africa #
+################
+
+tsabong = bccc0c
+werda = 896d0c
+
+#WASTELANDS
+drakensberg_mountains_et = 010184

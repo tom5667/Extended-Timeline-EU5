@@ -18,6 +18,39 @@ ruwaished = { topography = flatland vegetation = desert climate = arid religion 
 rutba = { topography = flatland vegetation = desert climate = arid religion = sunni culture = iraqi_culture raw_material = sand}
 umm_rashrash = { topography = hills vegetation = desert climate = arid religion = sunni culture = bedouin_culture raw_material = copper natural_harbor_suitability = 0.00}
 khasab = { topography = mountains vegetation = desert climate = arid religion = ibadi culture = omani_culture raw_material = fish natural_harbor_suitability = 0.20}
+tintane = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = lamtuna_culture raw_material = livestock}
+kiffa = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = lamtuna_culture raw_material = livestock}
+guerou = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = lamtuna_culture raw_material = livestock}
+aleg = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = lamtuna_culture raw_material = livestock}
+boutilimit = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = lamtuna_culture raw_material = livestock}
+al_mahbes = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = hassaniya raw_material = sand}
+tamanrasset = { topography = mountains vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = stone}
+tessalit = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+timiaouine = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+in_guezzam = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+bordj_badji_mokhtar = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+arlit = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+illizi = { topography = flatland vegetation = desert climate = arid religion = sunni culture = tuareg raw_material = sand}
+bardai = { topography = mountains vegetation = desert climate = arid religion = sunni culture = toubou_culture raw_material = sand}
+jaghbub = { topography = flatland vegetation = desert climate = arid religion = sunni culture = eastern_amazigh raw_material = livestock}
+menaka = { topography = flatland vegetation = desert climate = arid religion = sunni culture = songhai raw_material = sand}
+impfondo = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = fruit}
+betou = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+nola_congo = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+ouesso = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = wild_game}
+makokou = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+makoua_congo = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+mbandaka = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = fish}
+lisala = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = fruit}
+bumba = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+kisangani = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = fish}
+bondo_north = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = medicaments}
+boende = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+kindu = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = gems}
+ikela = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = lumber}
+walikale = { topography = flatland vegetation = jungle climate = tropical religion = ngbandi_religion culture = ngbandi_culture raw_material = goods_gold}
+tsabong = { topography = hills vegetation = grasslands climate = arid religion = kaggen_religion culture = n_ng_culture raw_material = gems}
+werda = { topography = hills vegetation = grasslands climate = arid religion = kaggen_religion culture = n_ng_culture raw_material = sand}
 
 kyzylkum_corridor1 = { topography = flatland vegetation = desert climate = cold_arid}
 kyzylkum_corridor2 = { topography = flatland vegetation = desert climate = cold_arid}
@@ -43,6 +76,22 @@ rub_al_khali_corridor11 = { topography = flatland vegetation = desert climate = 
 rub_al_khali_corridor12 = { topography = flatland vegetation = desert climate = arid}
 tibet_passage_et1 = { topography = plateau vegetation = desert climate = cold_arid}
 tibet_passage_et2 = { topography = plateau vegetation = desert climate = cold_arid}
+sahara_passage_et1 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et2 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et3 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et4 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et5 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et6 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et7 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et8 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et9 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et10 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et11 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et12 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et13 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et14 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et15 = { topography = flatland vegetation = desert climate = arid}
+sahara_passage_et16 = { topography = flatland vegetation = desert climate = arid}
 
 ust_yurt_plateau3 = { topography = dune_wasteland vegetation = desert climate = cold_arid}
 ust_yurt_plateau4 = { topography = dune_wasteland vegetation = desert climate = cold_arid}
@@ -132,6 +181,54 @@ caucasus_et6 = { topography = mountain_wasteland vegetation = sparse climate = a
 lesser_caucasus_et1 = { topography = mountain_wasteland vegetation = woods climate = arctic}
 lesser_caucasus_et2 = { topography = mountain_wasteland vegetation = woods climate = arctic}
 lesser_caucasus_et3 = { topography = mountain_wasteland vegetation = sparse climate = arctic}
+erg_amatlich_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_amatlich_et2 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_amatlich_et3 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_aoukar_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_aoukar_et2 = { topography = dune_wasteland vegetation = desert climate = arid}
+el_djouf_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+el_djouf_et2 = { topography = dune_wasteland vegetation = desert climate = arid}
+el_djouf_et3 = { topography = flatland_wasteland vegetation = desert climate = arid}
+el_djouf_et4 = { topography = flatland_wasteland vegetation = desert climate = arid}
+el_djouf_et5 = { topography = plateau_wasteland vegetation = desert climate = arid}
+tanezrouft_desert_et1 = { topography = flatland_wasteland vegetation = desert climate = arid}
+tanezrouft_desert_et2 = { topography = flatland_wasteland vegetation = desert climate = arid}
+talak_desert_et1 = { topography = flatland_wasteland vegetation = desert climate = arid}
+talak_desert_et2 = { topography = flatland_wasteland vegetation = desert climate = arid}
+talak_desert_et3 = { topography = flatland_wasteland vegetation = desert climate = arid}
+plain_of_tamlelt_et1 = { topography = plateau_wasteland vegetation = desert climate = arid}
+plain_of_tamlelt_et2 = { topography = plateau_wasteland vegetation = desert climate = arid}
+el_eglab_massif_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+tenere_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_of_bilma_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+rabyanah_sand_sea_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_selima_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_selima_et2 = { topography = dune_wasteland vegetation = desert climate = arid}
+erg_selima_et3 = { topography = dune_wasteland vegetation = desert climate = arid}
+great_sand_sea_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+grand_erg_oriental_et1 = { topography = dune_wasteland vegetation = desert climate = arid}
+western_desert_et1 = { topography = flatland_wasteland vegetation = desert climate = arid}
+oban_hills_et = { topography = hills_wasteland vegetation = jungle climate = tropical}
+obudu_plateau_et = { topography = plateau_wasteland vegetation = woods climate = tropical}
+guinean_jungle_et1 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+guinean_jungle_et2 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et1 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et2 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et3 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et4 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et5 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et6 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et7 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et8 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et9 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et10 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et11 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et12 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et13 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et14 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+congo_jungle_et15 = { topography = flatland_wasteland vegetation = jungle climate = tropical}
+drakensberg_mountains_et = { topography = mountain_wasteland vegetation = grasslands climate = subtropical}
+mount_meru = { topography = mountain_wasteland vegetation = forest climate = oceanic}
 
 #vanilla
 stockholm = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = swedish raw_material = clay natural_harbor_suitability = 0.75}
