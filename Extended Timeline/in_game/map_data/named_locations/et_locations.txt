@@ -297,3 +297,46 @@ werda = 896d0c
 
 #WASTELANDS
 drakensberg_mountains_et = 010184
+
+#################
+# North America #
+#################
+
+qamanituaq = cda10d #Baker Lake
+sagvaaniqtuuq = 6abb0d #Prudhoe Bay
+ulguniq = bccc0d #Wainwright
+utqiagvik = 896d0d #Barrow
+iqaluktuuttiaq = cda10e #Cambridge Bay
+
+#CORRIDORS
+atigun_pass = ffff28
+
+#WASTELANDS
+wrangell_mountains_et = 010186
+coast_mountains_et = 010187
+gwichin_uplands_et = 010188
+nabesna_forest_et = 010189
+
+#SEA
+wainwright_inlet = 00fefe
+point_barrow = 00b2fe
+tigvariak_island = 01fefe
+barter_island = 01b2fe
+mackenzie_estuary = 02fefe
+inuvialuit_coast = 02b2fe
+amundsen_gulf = 03fefe
+dolphin_and_union_strait = 03b2fe
+coronation_gulf = 04fefe
+dease_strait = 04b2fe
+
+###############
+# Mesoamerica #
+###############
+
+ox_te_tuun = 6abb0e #Calakmul
+siaan_kaan = bccc0e #Uaxactun
+
+#WASTELANDS
+tawahka_jungle_et = 01018a
+chiriqui_mountains_et = 01018b
+darien_gap_et = 01018c
