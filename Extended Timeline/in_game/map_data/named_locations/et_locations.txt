@@ -41,7 +41,7 @@ kyzylkum_desert2 = 010102
 ugam_range1 = 010103
 ugam_range2 = 016D02
 tian_shan16 = 010104
-tian_shan17 = 010105
+#tian_shan17 = 010105
 hissar_mountains4 = 010106
 tian_shan18 = 010107
 tian_shan19 = 010108
@@ -88,7 +88,7 @@ rub_al_khali_corridor11 = ffff14
 rub_al_khali_corridor12 = ffff15
 
 #WASTELANDS
-rub_al_khali3 = 01010d
+rub_al_khali3 = 0101ac
 rub_al_khali4 = 01010e
 rub_al_khali5 = 010135
 rub_al_khali6 = 010110
@@ -168,7 +168,7 @@ mongol_altay_mountains_et = 010143
 altay_mountains_et1 = 010144
 altay_mountains_et2 = 010145
 altay_mountains_et3 = 010146
-saur_et = 010147
+saur_et = 0101ab
 khan_khentii_mountains_et = 010148
 eastern_sayan_mountains_et = 010149
 
@@ -305,7 +305,7 @@ drakensberg_mountains_et = 010184
 qamanituaq = cda10d #Baker Lake
 sagvaaniqtuuq = 6abb0d #Prudhoe Bay
 ulguniq = bccc0d #Wainwright
-utqiagvik = 896d0d #Barrow
+utqiagvik_et = 896d0d #Barrow
 iqaluktuuttiaq = cda10e #Cambridge Bay
 
 #CORRIDORS
@@ -340,3 +340,97 @@ siaan_kaan = bccc0e #Uaxactun
 tawahka_jungle_et = 01018a
 chiriqui_mountains_et = 01018b
 darien_gap_et = 01018c
+
+#################
+# South America #
+#################
+
+atabapo = 896d0e
+atures = cda10f
+tapuruquara = 6abb0f #Santa Isabel do Rio Negro
+uaupes = bccc0f #Sao Gabriel da Cachoeira
+karasabai = 896d0f
+iauarete = cda110
+mitu = 6abb10
+galibi_marwono = bccc10 #Oiapoque
+maroni = 896d10 #Grand-Santi
+pokigron = cda111
+jutai = 6abb11
+tabatinga = bccc11
+amatura = 896d11
+calamar = cda112
+caballococha = 6abb12
+iquitos = bccc12
+leticia = 896d12
+inirida = cda113
+mauta = 6abb13
+maranon = bccc13 #San Lorenzo
+requena_amazon = 896d13
+contamama = cda114
+leguizamo = 6abb14 #Puerto Leguizamo
+jurua = bccc14
+carauari = 896d14
+itamarati = cda115
+eirunepe = 6abb15
+ipixuna = bccc15
+cruzeiro_do_sul = 896d15
+tarauaca = cda116
+feijo = 6abb16
+laco = bccc16 #Sena Madureira
+acre_brazil = 896d16
+brasileia = cda117
+cobija_amazon = 6abb17
+pamahuaya = bccc17 #Riberalta
+guayaramerin = 896d17
+inapari = cda118
+tambopata = 6abb18 #Puerto Maldonado
+mazuko = bccc18
+jacareacanga = 896d18
+apui_amazon = cda119
+humaita = 6abb19
+pacaja = bccc19
+xipaia = 896d19 #Altamira
+uruara = cda11a
+
+#WASTELANDS
+amazon_jungle_et1 = 01018d
+amazon_jungle_et2 = 01018e
+amazon_jungle_et3 = 01018f
+amazon_jungle_et4 = 010190
+amazon_jungle_et5 = 010191
+amazon_jungle_et6 = 010192
+amazon_jungle_et7 = 010193
+amazon_jungle_et8 = 010194
+amazon_jungle_et9 = 010195
+amazon_jungle_et10 = 010196
+amazon_jungle_et11 = 010197
+amazon_jungle_et12 = 010198
+amazon_jungle_et13 = 010199
+amazon_jungle_et14 = 01019a
+amazon_jungle_et15 = 01019b
+#amazon_jungle_et16 = 01019c
+tama_mountains_et = 01019d
+pantanal_forest_et = 01019e
+pantanal_swamp_et = 01019f
+ayoreo_forest_et = 0101a0
+chak_xana_volcano_et = 0101a1
+aucanquilcha_volcano_et1 = 0101a2
+aucanquilcha_volcano_et2 = 0101a3
+pissis_mountains_et = 0101a4
+villarica_forest_et = 0101a5
+puyehue_forest_et = 0101a6
+piren_forest_et = 0101a7
+nansen_forest_et = 0101a8
+paine_forest_et = 0101a9
+cololo_mountains_et = 0101aa
+
+###############
+### Oceania ###
+###############
+
+#WASTELANDS
+#central_range_mountains_et = 0101ad
+
+#arrente = 6abb1a #Alice Springs
+#luritja = bccc1a #Papunya
+#pitjantjatjara = 896d1a #Uluru

@@ -3,7 +3,7 @@
     "id" : "com.extendedtimeline.etmain",
     "version" : "0.1",
     "game_id" : "caesar",
-    "supported_game_version" : "0.7.*",
+    "supported_game_version" : "0.8.*",
     "short_description" : "Main Extended Timeline mod",
     "tags" : [],
     "relationships" : [],
