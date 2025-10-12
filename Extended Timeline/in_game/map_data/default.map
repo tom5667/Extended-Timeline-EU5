@@ -1192,7 +1192,8 @@ lakes = {
 	whakatipu_waitai_lake wanaka_lake hawea_lake ohau_lake pukaki_lake 
 	tekapo_lake wairarapa_lake
 
-	iro_lake
+	iro_lake kurile_lake
+	ulakhan_kyuel_lake ozero_sytygan_lake ozero_kubuy_lake ozero_orotko_lake ozero_laydy_kyuyel_lake elgygytgyn_lake munduyskoye_lake
 } 
 
 #####################
@@ -1220,7 +1221,7 @@ impassable_mountains = {
 	wrangell_mountains_et coast_mountains_et gwichin_uplands_et nabesna_forest_et tawahka_jungle_et chiriqui_mountains_et darien_gap_et
 	amazon_jungle_et1 amazon_jungle_et2 amazon_jungle_et3 amazon_jungle_et4 amazon_jungle_et5 amazon_jungle_et6 amazon_jungle_et7 amazon_jungle_et8 amazon_jungle_et9 amazon_jungle_et10 amazon_jungle_et11
 	amazon_jungle_et12 amazon_jungle_et13 amazon_jungle_et14 amazon_jungle_et15 tama_mountains_et pantanal_forest_et pantanal_swamp_et ayoreo_forest_et chak_xana_volcano_et aucanquilcha_volcano_et1
-	aucanquilcha_volcano_et2 pissis_mountains_et villarica_forest_et puyehue_forest_et piren_forest_et nansen_forest_et paine_forest_et cololo_mountains_et
+	aucanquilcha_volcano_et2 pissis_mountains_et villarica_forest_et puyehue_forest_et piren_forest_et nansen_forest_et paine_forest_et cololo_mountains_et central_range_mountains_et
 	
 	#Europe
 	s_jamtland_wasteland n_jamtland_wasteland jotunheim hardangervidda skanderna north_skanderna vattnajokull icelandic_highlands hofsjokull langjokull eyjafjallajokull
@@ -1362,7 +1363,7 @@ impassable_mountains = {
 	jurhen_ui lunggar1 lunggar2 nyainqentanglha1 nyainqentanglha2 nyainqentanglha3 nyainqentanglha4 nyainqentanglha5 nyainqentanglha6 tanggula1 tanggula2 tanggula3
 	changtang ustun_tag
 
-	bureya duse_alin yam_alin
+	bureya duse_alin yam_alin ayon
 
 	badain_jarain_desert1 badain_jarain_desert2 tengger_desert ulan_buh_desert
 	altay_mountains atas_bogd barkol_mountains eastern_sayan_mountains1 eastern_sayan_mountains2 eastern_sayan_mountains3 gobi_altay khan_khentii1 khan_khentii2 khan_khentii3 khangain_mountains khasagt_khairkhan mongol_altay tannu_ola_mountains1 tannu_ola_mountains2 targavatai_mountains western_sayan_mountains
@@ -1580,7 +1581,7 @@ impassable_mountains = {
 	hawequas_mountains waterval_mountains kalahari_desert namib_desert mocamedes_desert
 
 	#Oceania
-	nauru mokumanamana oeno_atoll
+	mokumanamana oeno_atoll
 	revillagigedo_islands eiao ua_huka ua_pou temoe_atoll morane_atoll maria_atoll tematagi_atoll hereheretue_atoll anuanuraro_atoll tatakoto reao nengonengo_atoll rekareka_atoll
 	hikueru_atoll reitoru_atoll fangatau_atoll puka_puka_atoll napuka_atoll nihiru_atoll makatea_atoll tetiaroa_atoll haraiki_atoll moorea huahine pora_pora maupiti_atoll maupihaa_atoll motu_one_atoll
 	#Hawaii
@@ -1629,7 +1630,7 @@ non_ownable = {
 
 	ksar_es_souk_bechar_corridor	moulouya_corridor1	moulouya_corridor2	moulouya_corridor3
 
-	mirbat_masirah_corridor1 mirbat_masirah_corridor2 mirbat_masirah_corridor3 rumah_jarrarah_corridor tanumah_mashdhubah_corridor ash_shamli_tayma_corridor bir_fajr_tayma_corridor bir_fajr_basithah_corridor
+	rumah_jarrarah_corridor tanumah_mashdhubah_corridor ash_shamli_tayma_corridor bir_fajr_tayma_corridor bir_fajr_basithah_corridor
 
 	syrian_desert_corridor1 syrian_desert_corridor2 syrian_desert_corridor3 syrian_desert_corridor4 syrian_desert_corridor5 syrian_desert_corridor6 syrian_desert_corridor7 syrian_desert_corridor8 syrian_desert_corridor9 syrian_desert_corridor10 syrian_desert_corridor11 syrian_desert_corridor12 syrian_desert_corridor13
 

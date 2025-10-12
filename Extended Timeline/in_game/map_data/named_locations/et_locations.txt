@@ -429,8 +429,12 @@ cololo_mountains_et = 0101aa
 ###############
 
 #WASTELANDS
-#central_range_mountains_et = 0101ad
+central_range_mountains_et = 0101ad
 
 #arrente = 6abb1a #Alice Springs
 #luritja = bccc1a #Papunya
 #pitjantjatjara = 896d1a #Uluru
+#anmatyerre = cda11b #Yuendumu
+#ngatatjara = 6abb1b #Kaltukatjara
+#ngaanyatjarra = bccc1b #Warburton
+#tjalkanti = 896d1b #Laverton

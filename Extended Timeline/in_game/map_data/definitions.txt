@@ -94,6 +94,18 @@
 				finnmark_province = { kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta kirkenes lebesby }
 
 			}
+			karelia_area = {
+				aunus_karelia_province = { olonets kinerma kondpoga ostrechiny pryazha shuya_karelia shyoltozero vazhiny	lake_konchozero lake_lizhmozero lake_onega lake_palvozero lake_sandal lake_shotozero lake_syamozero lake_vedlozero	}
+				inner_aunus_karelia_province = { repola karhumagi kizhi lindjarvi nadvoitsy pieninka puatane sellinkyla semcojarvi lake_gimoly lake_leksozero lake_seletsy lake_tulos lake_zegoserskoje }
+				inner_white_karelia_province = { rukajarvi jyskyjarvi kiestinki ontajarvi paanajarvi suikujarvi tunkuo uhtuo lake_bolshoye_rovkulskoye lake_engozero lake_kamennoye lake_kenozero lake_kovdozero lake_kukkureozero lake_lokhtyarvi lake_notozero lake_nyuk lake_pyaozero lake_sredneye_kuyto lake_tishkeozero lake_topozero lake_tungudskoye lake_verkhneye_kuyto lake_yelmozero lake_maslozero karelia_taiga1 karelia_taiga2 }
+				korela_province = { korela kurkijoki konevets joensuu sordavala vartsila ilomantsi lieksa juuka salmi loimola mohko suojarvi yanis_jarvi lake_orivesi lake_suoyarvi lake_otradnoye hoytiainen pielinen viinijarvi koitere nurmes	lake_ladoga }
+				white_karelia_province = { kem keret kovda kriitina saarijoki 	lake_lindozero lake_vygozero }
+			}
+			kola_area = {
+				north_kola_province = { kola dalniye_zelentsy kiltina luujarvi maaselka ponoi semiostrov svyatoy_nos lake_chudzjavr lake_lovozero lake_umbozero lake_vyalozero lake_yenozero kola_taiga lapland_taiga4 }
+				south_kola_province = {	umba kantalahti kashkarantsy olenitsa pyalitsa raivke tetrino varzuga lake_imandra lake_kanozero lake_kolozero lake_kolvitskoye lake_sergozero	}
+				western_kola_province = { pechenga akkala alakurti koliskoj mootka nuorttijarvi prirechnyi suonikyla lapland_taiga2 lapland_taiga3 }
+			}
 
 			scandinavian_sea_zones_area = {
 				finnmark_coast_province = {
@@ -124,6 +136,12 @@
 					kalmar_sund skanska_kusten blekinge_kust central_baltic oland_coast
 				}
 				bothnian_sea = {  kvarken gulf_of_bothnia west_botnia east_botnia }
+			}
+			# sea areas
+			russian_coastline = {
+				barents_sea_province = {
+					barents_sea barents_sea4 barents_sea6 barents_sea8 barents_sea9 barents_sea10 kara_sea murman_coast north_cape rybachy_peninsula svyatoy_nos_cape tana_fjord}
+				white_sea_province = { inner_onega_bay intsi_cape orlov_cape varzuga_estuary }
 			}
 		}
 
@@ -663,6 +681,10 @@
 				olomoucko_province = { olomouc prostejov zabreh sumperk }
 				hradistsko_province = { hradiste vizovice prerov pribor }
 			}
+			alsace_area = {
+				lower_alsace_province = { strasbourg haguenau zabern lichtenberg benfeld }
+				upper_alsace_province = { colmar belfort ensisheim ferrette murbach mulhouse }
+			}
 		}
 
 		great_britain_region = {
@@ -836,10 +858,6 @@
 		}
 
 		france_region = {
-			alsace_area = {
-				lower_alsace_province = { strasbourg haguenau zabern lichtenberg benfeld }
-				upper_alsace_province = { colmar belfort ensisheim ferrette murbach mulhouse }
-			}
 			anjou_area = {
 				anjou_province = { angers bauge beaupreau chateau_gontier le_lude loudun passavant saumur }
 				lower_maine_province = { mayenne laval sainte_suzanne villaines }
@@ -1094,6 +1112,12 @@
 					cape_sines bay_setubal berlengas_islands cape_mondego mouth_douro rias_baixas costa_da_morte north_eastern_atlantic41 north_eastern_atlantic42 north_eastern_atlantic43 north_eastern_atlantic44 north_eastern_atlantic45  
 				}
 			}
+			western_mediterranean_sea_area = {
+				sardinia_sea_province = { corsica_west_coast bay_alghero gulf_asinara gulf_cagliari gulf_oristano strait_bonifacio teulada_cape sardinian_sea1 sardinian_sea2 sardinian_sea3 }
+
+				balearic_sea_province = { gulf_of_valencia ebro_delta costa_daurada costa_brava bay_palma bay_alcudia favaritx_cape}
+				gulf_of_leon_province = { gulf_of_roses gulf_of_lion coast_languedoc mouths_rhone cape_sicie ligurian_sea_location_1}
+			}
 		}
 
 		italy_region = {
@@ -1191,16 +1215,6 @@
 				verona_province = { verona legnago peschiera }
 				vicenza_province = { vicenza bassano schio }
 			}
-			alboran_sea_area = {
-				alboran_sea_province = { strait_of_gibraltar hoceima_bay cape_three_forks bay_oran costa_sol gulf_of_almeria }
-				western_mediterranean_sea_province = {
-					gulf_mazarron costa_blanca eivissa_coast cap_nau mallorca_coast
-					western_mediterraneans_sea1 western_mediterraneans_sea2
-				}
-				maghreb_coastal_sea_zones_province = {
-					cape_magroua cape_cherchell bay_algiers gulf_bejaia gulf_stora annaba_bay
-				}
-			}
 			tyrrhenian_sea = {
 				tyrrhenian_sea_province = {
 					coast_lazio gulf_terracina eolie_islands gulf_castellammare gulf_napoli gulf_policastro gulf_termini
@@ -1213,12 +1227,6 @@
 					gulf_talamone gulf_genoa gulf_florent corsica_channel riviera_levante riviera_ponente french_riviera
 				}
 
-			}
-			western_mediterranean_sea_area = {
-				sardinia_sea_province = { corsica_west_coast bay_alghero gulf_asinara gulf_cagliari gulf_oristano strait_bonifacio teulada_cape sardinian_sea1 sardinian_sea2 sardinian_sea3 }
-
-				balearic_sea_province = { gulf_of_valencia ebro_delta costa_daurada costa_brava bay_palma bay_alcudia favaritx_cape}
-				gulf_of_leon_province = { gulf_of_roses gulf_of_lion coast_languedoc mouths_rhone cape_sicie ligurian_sea_location_1}
 			}
 		}
 	}
@@ -1290,7 +1298,7 @@
 			}
 		}
 
-		poland_region = {
+		baltic_region = {
 			baltic_area = {
 				courland_province = { kuldiga dundaga durbe grobina kandava piltene saldus ventspils }
 				estonia_province = { tallinn narva padise paide rakvere rapla toolse vasknarva }
@@ -1474,6 +1482,15 @@
 		}
 
 		caucasus_region = {
+			armenian_highlands_area = {
+				amadiya_province = { amadiya baskale hakkari semdinli zakho east_taurus_4 }
+				bitlis_province = { bitlis bahcesaray catak hizan mus east_taurus_5 east_taurus_7 }
+				erzurum_province = { erzurum bayburt erzincan ilic kelkit kemah sebinkarahisar siran tercan kose_mountains_2 mescit_mountains otlukbeli_mountains }
+				harput_province = { harput adakli bingol cemisgezek genc keban kuzucan palu pertek sivrice lake_hazar mercan_mountains_1 mercan_mountains_2 }
+				kars_province = { kars kagizman surmali kars_mountains_2 kars_mountains_3 }
+				malazgirt_province = { malazgirt hinis karakilise hasankale tekman tutak varto aladag_mountains karagol_mountains karasu_aras_mountains }
+				van_province = { van ahlat bargiri ercis hosap tatvan lake_van suphan_mountains }
+			}
 			armenia_area = {
 				ani_province = { ani amberd artashavan kumayri lesser_caucasus_mountains9}
 				kachen_province = { gandzasar goroz haterk kashatagh shusha }
@@ -1704,9 +1721,6 @@
 				south_pskov_province = { ostrov opochka sebech slavkovitchi volodimerets voronich }
 				vodskaya_province = { koporye ivangorod izori khotchino moloskovitsa soikino tesov yama }
 			}
-		}
-
-		white_sea_region = {
 			pomorye_area = {
 				kargopol_province = { kargopol iksa konyovo vershinino volosovskaya lake_kenozero_ark lake_lacha lake_lyokshmozero lake_vodlozero }
 				onega_province = { village_onega luda malye_oserki nyonoksa priluky }
@@ -1721,25 +1735,6 @@
 				mezen_province = { okladnikova_sloboda nes khimzha vizhas oma leshukonskoye kanin_peninsula russian_wastelands_8 kolguyev lake_peschanka_to }
 				zavolochye_province = { zanyukhcha verkola shardonem pokshenga chakola ust_chulasa koptyuga chirki russian_wastelands_7 russian_wastelands_2 russian_wastelands_10 }
 				novaya_zemlya_province = { yuzhny lake_lednikovoye lake_goltsovoye }
-			}
-			karelia_area = {
-				aunus_karelia_province = { olonets kinerma kondpoga ostrechiny pryazha shuya_karelia shyoltozero vazhiny	lake_konchozero lake_lizhmozero lake_onega lake_palvozero lake_sandal lake_shotozero lake_syamozero lake_vedlozero	}
-				inner_aunus_karelia_province = { repola karhumagi kizhi lindjarvi nadvoitsy pieninka puatane sellinkyla semcojarvi lake_gimoly lake_leksozero lake_seletsy lake_tulos lake_zegoserskoje }
-				inner_white_karelia_province = { rukajarvi jyskyjarvi kiestinki ontajarvi paanajarvi suikujarvi tunkuo uhtuo lake_bolshoye_rovkulskoye lake_engozero lake_kamennoye lake_kenozero lake_kovdozero lake_kukkureozero lake_lokhtyarvi lake_notozero lake_nyuk lake_pyaozero lake_sredneye_kuyto lake_tishkeozero lake_topozero lake_tungudskoye lake_verkhneye_kuyto lake_yelmozero lake_maslozero karelia_taiga1 karelia_taiga2 }
-				korela_province = { korela kurkijoki konevets joensuu sordavala vartsila ilomantsi lieksa juuka salmi loimola mohko suojarvi yanis_jarvi lake_orivesi lake_suoyarvi lake_otradnoye hoytiainen pielinen viinijarvi koitere nurmes	lake_ladoga }
-				white_karelia_province = { kem keret kovda kriitina saarijoki 	lake_lindozero lake_vygozero }
-			}
-			kola_area = {
-				north_kola_province = { kola dalniye_zelentsy kiltina luujarvi maaselka ponoi semiostrov svyatoy_nos lake_chudzjavr lake_lovozero lake_umbozero lake_vyalozero lake_yenozero kola_taiga lapland_taiga4 }
-				south_kola_province = {	umba kantalahti kashkarantsy olenitsa pyalitsa raivke tetrino varzuga lake_imandra lake_kanozero lake_kolozero lake_kolvitskoye lake_sergozero	}
-				western_kola_province = { pechenga akkala alakurti koliskoj mootka nuorttijarvi prirechnyi suonikyla lapland_taiga2 lapland_taiga3 }
-			}
-
-			# sea areas
-			russian_coastline = {
-				barents_sea_province = {
-					barents_sea barents_sea4 barents_sea6 barents_sea8 barents_sea9 barents_sea10 kara_sea murman_coast north_cape rybachy_peninsula svyatoy_nos_cape tana_fjord}
-				white_sea_province = { inner_onega_bay intsi_cape orlov_cape varzuga_estuary }
 			}
 		}
 
@@ -1918,25 +1913,6 @@
 					ionian_sea1 ionian_sea2 ionian_sea3 ionian_sea4
 				}
 			}
-			central_mediterranean_sea_area = {
-				malta_coast_province = {
-					egadi_islands granitola_cape strait_malta gulf_gela george_bay 
-					lampedusa_island pantelleria_island
-				}
-				channel_sicily_province = {
-					cape_ben_sakka gulf_tunis cape_bon gulf_hammamet
-				}
-				gulf_gabes_province = {
-					kerkennah_islands coast_jeffara kaboudia_cape cape_tajura coast_tripolitania
-					gulf_gabes1 gulf_gabes2
-				}
-				gulf_sirte_province = {
-					cape_misurata sirte_coast west_bay_sidrah east_bay_sidrah cape_tawinis coast_cyrenaica
-					gulf_sirte1
-					central_mediterranean_sea1 central_mediterranean_sea2 central_mediterranean_sea3 central_mediterranean_sea4 central_mediterranean_sea5
-
-				}
-			}
 			aegean_sea_area = {
 				aegean_sea_province = {
 					prasonisi_cape sideros_cape chania_bay gulf_mirambelos karpathian_sea
@@ -1954,27 +1930,6 @@
 				euboea_coast_province = {
 					thermaic_gulf gulf_kassandreia gulf_kymi sporades_sea euboic_sea petalion_gulf cape_caphereus
 				}
-			}
-			levantine_sea_area = {
-				levantine_sea_province = {
-					cape_al_hikmah arabs_gulf rosetta_mouth damietta_mouth
-				}
-				levant_coast_sea_province = {
-					bardawil_coast coastal_plain bay_haifa bay_beirut coast_lebanon
-				}
-				cyprus_coast_sea_province = {
-					cape_apostolos_andreas famagusta_bay akrotiri_bay episkopi_bay cape_arnauti
-					levantine_sea1 levantine_sea2 levantine_sea3 levantine_sea4 levantine_sea5 levantine_sea6
-				}
-				anatolian_coast_province = {
-					ceramic_gulf gulf_fethiye teke_peninsula gulf_finike west_gulf_adalia
-				}
-				cilician_sea_province = {
-					cape_ad_dariah gulf_alexandretta gulf_mersin cape_tisan morphou_bay east_gulf_adalia
-				}
-			}
-			libyan_sea_area = {
-				libyan_sea_province = { krios_cape messara_bay coast_crete cape_al_hilal gulf_bomba bay_salum coast_marmarica libyan_sea1 libyan_sea2 libyan_sea3 }
 			}
 		}
 
@@ -2094,15 +2049,6 @@ asia = {
 	}
 	middle_east = {
 		anatolia_region = {
-			armenian_highlands_area = {
-				amadiya_province = { amadiya baskale hakkari semdinli zakho east_taurus_4 }
-				bitlis_province = { bitlis bahcesaray catak hizan mus east_taurus_5 east_taurus_7 }
-				erzurum_province = { erzurum bayburt erzincan ilic kelkit kemah sebinkarahisar siran tercan kose_mountains_2 mescit_mountains otlukbeli_mountains }
-				harput_province = { harput adakli bingol cemisgezek genc keban kuzucan palu pertek sivrice lake_hazar mercan_mountains_1 mercan_mountains_2 }
-				kars_province = { kars kagizman surmali kars_mountains_2 kars_mountains_3 }
-				malazgirt_province = { malazgirt hinis karakilise hasankale tekman tutak varto aladag_mountains karagol_mountains karasu_aras_mountains }
-				van_province = { van ahlat bargiri ercis hosap tatvan lake_van suphan_mountains }
-			}
 			cappadocia_area = {
 				amasya_province = { amasya gadegara ladik_pontus merzifon sonisa }
 				bozok_province = { bozok baliseyh candir dinek_keskin sorgun }
@@ -2218,6 +2164,24 @@ asia = {
 				shaam_province = { damascus burraq jayrud nabek qutayfah antilebanon_mountains1 antilebanon_mountains2 antilebanon_mountains3 }
 				sharat_province = { karak al_quwayrah amman aqaba maan madaba shoubak sughar umm_rashrash }
 				tadmur_province = { tadmur arak huwwarin qaryatayn syrian_desert3 syrian_desert4 }
+			}
+			levantine_sea_area = {
+				levantine_sea_province = {
+					cape_al_hikmah arabs_gulf rosetta_mouth damietta_mouth
+				}
+				levant_coast_sea_province = {
+					bardawil_coast coastal_plain bay_haifa bay_beirut coast_lebanon
+				}
+				cyprus_coast_sea_province = {
+					cape_apostolos_andreas famagusta_bay akrotiri_bay episkopi_bay cape_arnauti
+					levantine_sea1 levantine_sea2 levantine_sea3 levantine_sea4 levantine_sea5 levantine_sea6
+				}
+				anatolian_coast_province = {
+					ceramic_gulf gulf_fethiye teke_peninsula gulf_finike west_gulf_adalia
+				}
+				cilician_sea_province = {
+					cape_ad_dariah gulf_alexandretta gulf_mersin cape_tisan morphou_bay east_gulf_adalia
+				}
 			}
 		}
 
@@ -2465,7 +2429,7 @@ asia = {
 		}
 
 	}
-	china = {
+	east_asia = {
 		east_china_region = {
 			fujian_area = {
 				funing_province = { ningde fuan changshi }
@@ -3416,7 +3380,7 @@ asia = {
 				charchan_province = { charchan charklik niya qietai tatrang waxxari altun_shan1 kunlun9 taklamakan3 }
 				karakoram_province = { murgo amtogor raskam sanju zarafshan amtogor_lake longmu_lake karakoram2 karakoram4 kunlun1 karakoram_et1 }
 				karasahr_province = { karasahr kumux bosten yulduz bosten_lake kuruktag tian_shan4 tian_shan5 lake_wuzongbulake }
-				kashgar_province = { kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga tian_shan1 }
+				kashgar_province = { kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga tian_shan1}
 				khotan_province = { khotan karakax keriya lop qira kunlun2 taklamakan5 }
 				kumkol_province = { yalingkuo jingyu kumkol jingyu_lake lake_aqqikkol lake_ayakkum kunlun3 kunlun8 kunlun10 }
 				kurla_province = { kurla bugur kuerchu }
@@ -3525,15 +3489,12 @@ asia = {
 			}
 			yenisei_area = {
 				xamaxar_province = { khamakar inarigda yukta ilimpeya kudepyapka ekonda turu tunguska_trail6 tunguska_trail5 vilyuy_trail siberian_forests_6 }
-				uchami_province = { nidym uchami tutonchany nimde erachimo tunguska_trail1 tunguska_trail2 tunguska_trail3 tunguska_trail4 siberian_forests_5 }
+				uchami_province = { nidym uchami tutonchany nimde erachimo munduyskoye_lake tunguska_trail1 tunguska_trail2 tunguska_trail3 tunguska_trail4 siberian_forests_5 }
 				dolgan_province = { siberian_forests_2 siberian_tundra_2 siberian_forests_3 siberian_hills_8 siberian_lakes_1 }
 			}
 		}
 		east_siberia_region = {
 			chukchee_area = {
-				yupighyt_province = { 
-					sivuqaq savoonga kitagnaq st_matthew
-				}
 				east_peninsula_province = { yoniveem innurmin nuvuqaq kytryn yanrakynnot sigheneg chauchu_trail1 guvrel peninsula_uplands1 peninsula_uplands2 }
 				west_peninsula_province = { nutepylmyn enmyl_yn nunligran keniergyn ervykynnot chauchu_trail2 chauchu_trail3 peninsula_uplands3 peninsula_uplands4 peninsula_uplands5 }
 				north_onmilin_province = { valkall_an rykuul ugolnye nyerpicha konchalyt gytgomkyvamm tadlyeoan unazigmit o_mnmilin_uplands1 }
@@ -3550,14 +3511,14 @@ asia = {
 			kamchatka_area = {
 				south_alyutor_province = { palana voyampolka tigil sedanka kovran alyutor_range2 }
 				north_itelmen_province = { uka_town shiveluch klyuchi kamchatsk malka kamchatka_uplands1 }
-				east_itelmen_province = { ostrov_beringa kamchatka_uplands2 milkovo achava oktyabr_skii pauzhetka kamchatka_trail1 kamchatka_trail2 kamchatka_uplands3 kamchatka_uplands4 }
+				east_itelmen_province = { ostrov_beringa kamchatka_uplands2 milkovo achava oktyabr_skii pauzhetka kurile_lake kamchatka_trail1 kamchatka_trail2 kamchatka_uplands3 kamchatka_uplands4 }
 				west_itelmen_province = { kozyrevsk krutogorovskiy sobolevo kirovskiy khayryuzovo kamchatka_uplands5 }
 			}
 			chuvan_area = {
 				erri_province = { amguema iultin vankarem ryrkaypiy polyarny yakan valkaran erri_uplands1 erri_uplands2 }
 				mountain_chuvan_province = { chirovoye vulvyveyem ekityki palyavaam ichuveem }
 				coastal_chuvan_province = { peekin yanranay apapelgino valkumey rytkuchi }
-				south_chuvan_province = { chaun chuvan1 elgygytgyn chuvan2 chuvan3 chuvan_upplands1 chuvan_upplands2 }
+				south_chuvan_province = { chaun chuvan1 elgygytgyn chuvan2 chuvan3 chuvan_upplands1 chuvan_upplands2 elgygytgyn_lake}
 				east_omok_province = { ayon nutel_gyrgym pucheveyem raucha lelyuveyem anjuj_river omok_upplands1 omok_upplands2 omok_upplands3 }
 			}
 			kolyma_area = {
@@ -3639,13 +3600,19 @@ asia = {
 				xatii_province = { ygyatta bysyttakh khati yerkyutey iyesyak khannya }
 			}
 			laptev_coast_area = {
-				orotko_province = { orotko ot_kyuyel sokurdakh tumat tenkeli chaydakh buor_yuryakh chondon_tundra siberian_hills_5 }
+				orotko_province = { 
+					orotko ot_kyuyel sokurdakh tumat tenkeli chaydakh buor_yuryakh chondon_tundra siberian_hills_5 
+					ozero_sytygan_lake ozero_kubuy_lake ozero_orotko_lake ozero_laydy_kyuyel_lake
+				}
 				uyaancii_province = { altaikha oymyakon berelekh baky uyandi yrgychen kurannakh uyandina_trail }
 				xalizaax_province = { salylyk selennyakh nemkuchen khabzhylakh chondon ukyulyakh yarok ol_de_trail siberian_hills_6 siberian_tundra_7 }
 				xahaaciya_province = { kuogastakh kazachye kular ust_kuiga spirka kel_tegey khayyr siberian_tundra_6 }
 			}
 			lower_lena_area = {
-				ecigeen_province = { bestyakh bakhanay jigansk kystatyam lena_trail1 lena_trail2 lena_trail3 ecigeen_upplands sakha_uplands siberian_hills_1 siberian_lakes_2 }
+				ecigeen_province = { 
+					bestyakh bakhanay jigansk kystatyam lena_trail1 lena_trail2 lena_trail3 ecigeen_upplands sakha_uplands siberian_hills_1 siberian_lakes_2 
+					ulakhan_kyuel_lake
+				}
 				kuhuur_province = { tiksi kengdey chekurovka kyusyur siktyakh molodo zharzhan siberian_tundra_8 }
 				tumyat_province = { olenyok taymylyr noyuo sklad kelimyar khorbusuonka reka_pur uolya_trail siberian_tundra_9 siberian_tundra_10 }
 				sangaar_province = { kele arylakh segyan_kyuyol batamay sangar kuturga }
@@ -3694,7 +3661,7 @@ asia = {
 			}
 		}
 	}
-	india = {
+	south_asia = {
 		hindustan_region = {
 			#The Indo-Gangetic Plain
 			#Punjab, Modern Uttar Pradesh, Bihar, etc
@@ -3961,25 +3928,72 @@ asia = {
 					indian_coast56 indian_coast57 indian_coast58 indian_coast59
 					indian_high_sea29 indian_high_sea30
 				}
-				andhra_coastal_sea_zones_province = {
-					indian_coast49 indian_coast65 indian_coast51 indian_coast52 indian_coast53 indian_coast54 indian_coast55
-
-					indian_high_sea26 indian_high_sea27 indian_high_sea28
+			}
+		}
+		central_india_region = {
+			
+			malwa_area = {
+				western_malwa = { #8
+					ujjain mandsaur rampura bhanpura agar indore dhar ratlam jabhua
 				}
-				tamil_land_coastal_sea_zones_province = {
-					indian_coast46 indian_coast47 indian_coast48 indian_coast35 indian_coast30 indian_coast31 indian_coast32
-
-					indian_high_sea25
+				eastern_malwa = { #9
+					sironj bhilsa bhopal sehore
+					sarangpur maksi raisin chanderi guna
 				}
-				west_lanka_coastal_sea_zones_province = {
-					indian_coast33 indian_coast34 indian_coast36 indian_coast37 indian_coast38
-					indian_coast39
-					indian_high_sea13 indian_high_sea19 indian_high_sea20 
+				nimar = { #8
+					mandu maheshwar khategaon handia khandwa mandleshwar bijagarh alirajpur
 				}
-				east_lanka_coastal_sea_zones_province = {
-					indian_coast40 indian_coast41 indian_coast42 indian_coast43
-					indian_coast44 indian_coast45
-					indian_high_sea21 indian_high_sea22 indian_high_sea23 indian_high_sea24
+				khandesh = { #10
+					thalner burhanpur asirgarh gawilgarh illichpur nandurbar sultanpur laling dharangaon pachora
+					khandesh_mountains khandesh_mountains_2
+				}
+			}
+			vidarbha_area = {
+				upper_vidarbha = { #7
+					dongartal bandhugara chhaparagarh balaghat wairagarh katol devgarh
+				}
+				lower_vidarbha = { #9
+					basim kalam kelapur panar amravati akola mahagaon mehkar sindkedh
+				}
+				chanda_province = { #5
+					ballarpur aheri bhadrachalam gadchiroli bramhapuri
+				}
+			}
+			gondwana_area = {
+				bastar_province = { #8
+					bastar barasuru sukhma rekapalle kondagaon paralkot kanker dantewada jagdalpur eastern_ghats_south_bastar bastar_impassable
+				}
+				mahadeo = { #5
+					kherla hoshangabad chauragarh bhojpur
+					tendukheda gondwana_hills gondwana_hills_2 nimar_mountains
+				}
+				garha_mandla = { #6
+					garha mandla ghansor nainpur ramgad amarkantak gondwana_hills_3
+				}
+				dakshina_kosala = { #8
+					ratnapura sarangarh kashigarh sakti chaiturgarh tummana kenda kawardha nawagarh pendra
+					malkala_range malkala_range_2
+				}
+				raipur_garjats = { #9
+					tilda raipur durg dhamtari rajim sripura
+					khairagarh nandgram ambagarh bemetara deori
+					sitanadi_hills
+				}
+				baghelkhand = { #11
+					bandogarh sohagpur beohari ramnagar rewa
+					nagod mauganj madwas sidhi agori
+					vijaygarh
+				}
+				akara = { #7
+					deogarh sugaur ujargarh singorgarh murwara damoh
+					lalitpur
+				}
+				upper_bundelkhand_province = { #10
+					orchha kundar tehri irij chhatarpur panna
+					rahatgarh khajuraho mahoba bhatta
+				}
+				lower_bundelkhand_province = { #7
+					konch kalpi rath banda chitrakuta jhansi kalinjar
 				}
 			}
 		}
@@ -4020,22 +4034,6 @@ asia = {
 				}
 				nagaur_province = { #4
 					merta nagaur makrana kolayat
-				}
-			}
-			malwa_area = {
-				western_malwa = { #8
-					ujjain mandsaur rampura bhanpura agar indore dhar ratlam jabhua
-				}
-				eastern_malwa = { #9
-					sironj bhilsa bhopal sehore
-					sarangpur maksi raisin chanderi guna
-				}
-				nimar = { #8
-					mandu maheshwar khategaon handia khandwa mandleshwar bijagarh alirajpur
-				}
-				khandesh = { #10
-					thalner burhanpur asirgarh gawilgarh illichpur nandurbar sultanpur laling dharangaon pachora
-					khandesh_mountains khandesh_mountains_2
 				}
 			}
 			saurashtra_area = {
@@ -4113,43 +4111,6 @@ asia = {
 
 		}
 		deccan_region = {
-			gondwana_area = {
-				bastar_province = { #8
-					bastar barasuru sukhma rekapalle kondagaon paralkot kanker dantewada jagdalpur eastern_ghats_south_bastar bastar_impassable
-				}
-				mahadeo = { #5
-					kherla hoshangabad chauragarh bhojpur
-					tendukheda gondwana_hills gondwana_hills_2 nimar_mountains
-				}
-				garha_mandla = { #6
-					garha mandla ghansor nainpur ramgad amarkantak gondwana_hills_3
-				}
-				dakshina_kosala = { #8
-					ratnapura sarangarh kashigarh sakti chaiturgarh tummana kenda kawardha nawagarh pendra
-					malkala_range malkala_range_2
-				}
-				raipur_garjats = { #9
-					tilda raipur durg dhamtari rajim sripura
-					khairagarh nandgram ambagarh bemetara deori
-					sitanadi_hills
-				}
-				baghelkhand = { #11
-					bandogarh sohagpur beohari ramnagar rewa
-					nagod mauganj madwas sidhi agori
-					vijaygarh
-				}
-				akara = { #7
-					deogarh sugaur ujargarh singorgarh murwara damoh
-					lalitpur
-				}
-				upper_bundelkhand_province = { #10
-					orchha kundar tehri irij chhatarpur panna
-					rahatgarh khajuraho mahoba bhatta
-				}
-				lower_bundelkhand_province = { #7
-					konch kalpi rath banda chitrakuta jhansi kalinjar
-				}
-			}
 			andhra_area = {
 				kalingandhra = { #3
 					visakhapatnam vizianagaram pithapuram tuni rampa bobbili madugula eastern_ghats_jeypore
@@ -4213,17 +4174,6 @@ asia = {
 				}
 				kalyana_karnakassala = { #8
 					bidar yedagiri gulbarga kalyani sagar talikota bagalkot bijapur manyakheta chitapur bhalki kembhavi sindagi basavana_bagewadi badami
-				}
-			}
-			vidarbha_area = {
-				upper_vidarbha = { #7
-					dongartal bandhugara chhaparagarh balaghat wairagarh katol devgarh
-				}
-				lower_vidarbha = { #9
-					basim kalam kelapur panar amravati akola mahagaon mehkar sindkedh
-				}
-				chanda_province = { #5
-					ballarpur aheri bhadrachalam gadchiroli bramhapuri
 				}
 			}
 			maharashtra_area = {
@@ -4351,6 +4301,26 @@ asia = {
 					indian_coast16 indian_coast17 indian_coast18 indian_coast19 indian_coast20 indian_coast21 indian_coast22
 	
 					indian_high_sea6 indian_high_sea7 indian_high_sea8
+				}
+				andhra_coastal_sea_zones_province = {
+					indian_coast49 indian_coast65 indian_coast51 indian_coast52 indian_coast53 indian_coast54 indian_coast55
+
+					indian_high_sea26 indian_high_sea27 indian_high_sea28
+				}
+				tamil_land_coastal_sea_zones_province = {
+					indian_coast46 indian_coast47 indian_coast48 indian_coast35 indian_coast30 indian_coast31 indian_coast32
+
+					indian_high_sea25
+				}
+				west_lanka_coastal_sea_zones_province = {
+					indian_coast33 indian_coast34 indian_coast36 indian_coast37 indian_coast38
+					indian_coast39
+					indian_high_sea13 indian_high_sea19 indian_high_sea20 
+				}
+				east_lanka_coastal_sea_zones_province = {
+					indian_coast40 indian_coast41 indian_coast42 indian_coast43
+					indian_coast44 indian_coast45
+					indian_high_sea21 indian_high_sea22 indian_high_sea23 indian_high_sea24
 				}
 			}
 		}
@@ -4839,27 +4809,25 @@ africa = {
 				upper_congo_province = { mbandaka lisala bumba kisangani boende kindu ikela walikale 
 				congo_jungle congo_jungle_et7 congo_jungle_et8 congo_jungle_et9 congo_jungle_et10 congo_jungle_et11 congo_jungle_et12 congo_jungle_et13 congo_jungle_et14 }
 			}
-		}
-		kongo_region = {
-			central_africa_coastline_area = {
-				gabun_coast_province = {
-					gabon_coast cape_lopez ogoowe_coast tassi_coast sette_coast ndongo_coast gamba_coast
-					eastern_atlantic_highseas_1 eastern_atlantic_highseas_2
-				}
-				congo_river_mouth_province = {
-					mayumba_coast congo_river_coast lucata_coast nzeto_coast
-					eastern_atlantic_highseas_3 eastern_atlantic_highseas_4
-				}
-				luanda_coast_province = {
-					luanda_coast cape_ledo_coast quiteta_coast gunza_coast mbegela_coast canhoca_coast
-					eastern_atlantic_highseas_5 eastern_atlantic_highseas_6 eastern_atlantic_highseas_7
-				}
-				namibe_coast_province = {
-					lucira_cape amado_coast tombua_cape tigres_bay
-					kunene_coast skeleton_coast fria_cape mowe_bay terrace_bay torra_bay
-					eastern_atlantic_highseas_8 eastern_atlantic_highseas_9
-					african_high_sea1 african_high_sea2 african_high_sea3
-				}
+			
+			wadai_area = {
+				wadai_province = { ouara abesehir guereda hadjer_haddid am_dam }
+				yao_province = { yao mongo oum_hadjer am_djemena djedaa lake_fitri }
+			}
+			adamawa_area = {
+				central_adamawa_province = { yola bi_pi pindiga rei_bouba kontcha lau }
+				eastern_adamawa_province = { ngaoundere tignere poli mandingring ngaoundaye meiganga }
+				western_adamawa_province = { bauchi wukari kwararafa ibi pankshin nkambe lafia }
+			}
+			logone_area = {
+				sao_province = { gaoui logone_birni moito dourbali bokoro }
+				bagirmi_province = { massenya tele_nugar bousso guelengdeng }
+				masa_province = { lame binder bongor goundi doba }
+				mandara_province = { mora_cam keraoua pouss maroua }
+			}
+			cameroon_highlands_area = {
+				cameroon_ridge_province = { gembu mankon banyo bankim foumban bafoussam cameroon_mountains }
+				cameroon_plateau_province = { tibati mbakaou mbam yoko yambasa batchingou }
 			}
 			north_gabun_area = {
 				ogoowe_benje_province = { adyumba lambarene nguyi ngume rembo igumbi_andele bapunu ncomi lolo }
@@ -4881,6 +4849,30 @@ africa = {
 				south_sangha_province = { sanga_pumbo pumbo monsol ubangi tumba_ikoko }
 				east_lekumu_province = { ngato ngabo nunu mai_ndombe boma lake_mai_ndombe }
 				chuapa_province = { chuapa fimi lokoro yans bankutu congo_jungle_et15 }
+			}
+			central_africa_coastline_area = {
+				gabun_coast_province = {
+					gabon_coast cape_lopez ogoowe_coast tassi_coast sette_coast ndongo_coast gamba_coast
+					eastern_atlantic_highseas_1 eastern_atlantic_highseas_2
+				}
+			}
+		}
+		kongo_region = {
+			kongo_sea_zones_area = {
+				congo_river_mouth_province = {
+					mayumba_coast congo_river_coast lucata_coast nzeto_coast
+					eastern_atlantic_highseas_3 eastern_atlantic_highseas_4
+				}
+				luanda_coast_province = {
+					luanda_coast cape_ledo_coast quiteta_coast gunza_coast mbegela_coast canhoca_coast
+					eastern_atlantic_highseas_5 eastern_atlantic_highseas_6 eastern_atlantic_highseas_7
+				}
+				namibe_coast_province = {
+					lucira_cape amado_coast tombua_cape tigres_bay
+					kunene_coast skeleton_coast fria_cape mowe_bay terrace_bay torra_bay
+					eastern_atlantic_highseas_8 eastern_atlantic_highseas_9
+					african_high_sea1 african_high_sea2 african_high_sea3
+				}
 			}
 			west_kongo_area = {
 				kabinda_province = {
@@ -5004,17 +4996,7 @@ africa = {
 				kafue_province = { semalembue minenga kamimbe sitanda matimba chorumani }
 				luangwa_province = { boruma chirowe kwakanyesha msire manica kwa_chavira }
 			}
-			kasongo_area = {
-				urua_province = { urua mpueto moma_katwoi mwangulla kundi mpota mpala }
-				lukuga_province = { lukuga miketo lambo mtowa akilonda kiponguve makenenga muichi lubile luapula }
-				lunsemfwa_province = { msoro pemba chitambo msiri moira itaboa lokera }
-				muchinga_province = { bisa kasembe chinunga kombomba moma_moamba molumbo }
-				chambeshi_province = { msire_zambia mucajama chitimbe mpanda kabunda chilwe }
-				lufubu_province = { mgosas nyena_kapemba kafimbi mlungo kabuta chitope lake_mweru_wantipa }
-			}
 			east_kongo_area = {
-				kivu_province = { batete pere komo_kongo lega_kongo bembe_buyu }
-				ulindi_province = { baraka kibanga sikasingo zimba kusu_mangbetu nguera moana_kassongo kabambare }
 				lomami_province = { lussuna dibue dumbi kitete lukulunga kassali tetela_boa ikongo_boa lubefu }
 				lukenie_province = { pambala pende_kwila buassa lubue bendi gana_damate mabale lukenie }
 				bena_province = {
@@ -5080,6 +5062,8 @@ africa = {
 				makuria_province = { dongola abu_hamed berber kerma karima }
 				nobatia_province = { faras daw_sud kalabsha qasr_ibrim sai west_nubian_desert }
 				suakin_province = { suakin aydhab badi deraheib horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert east_nubian_desert sahara_passage_et14 }
+				erg_selima_province = { selima connector_egypt5 connector_egypt13 sahel_corridor26 sahel_corridor27 sahel_corridor28 sahel_corridor29 sahel_corridor30 erg_selima south_western_desert western_desert_et1 erg_selima_et3 sahara_passage_et13 }
+
 			}
 		}
 		somalia_region = {
@@ -5102,6 +5086,16 @@ africa = {
 				jubaland_province = { kismayo afmadow bardera buale garbahare jilib luuq }
 				mudugh_province = { dusmareb awrtable ceeldheer el_buur el_hamurre galkayo }
 				shebelle_province = { baidoa beledweyne buur_hakaba buur_heybe hudur jowhar maxaas }
+			}
+			somali_sea_area = {
+				majerteen_coast_sea_province = {
+					guardafui_channel cape_hafun cape_machar coast_punt ilig_cape mudug_coast
+					african_high_sea66 african_high_sea67 african_high_sea68 african_high_sea69
+				}
+				muqdisho_coast_sea_province = {
+					banaadir_coast shabelle_coast coast_jubaland cabdi_cape mareeg_coast warsheikh_coast cadde_cape
+					african_high_sea62 african_high_sea63 african_high_sea64 african_high_sea65
+				}
 			}
 		}
 		great_lakes_region = {
@@ -5180,6 +5174,16 @@ africa = {
 				victoria_nile_province = {
 					buganda busoga lango north_buganda pawir lake_victoria lake_kyoga
 				}
+				kivu_province = { batete pere komo_kongo lega_kongo bembe_buyu }
+				ulindi_province = { baraka kibanga sikasingo zimba kusu_mangbetu nguera moana_kassongo kabambare }
+			}
+			kasongo_area = {
+				urua_province = { urua mpueto moma_katwoi mwangulla kundi mpota mpala }
+				lukuga_province = { lukuga miketo lambo mtowa akilonda kiponguve makenenga muichi lubile luapula }
+				lunsemfwa_province = { msoro pemba chitambo msiri moira itaboa lokera }
+				muchinga_province = { bisa kasembe chinunga kombomba moma_moamba molumbo }
+				chambeshi_province = { msire_zambia mucajama chitimbe mpanda kabunda chilwe }
+				lufubu_province = { mgosas nyena_kapemba kafimbi mlungo kabuta chitope lake_mweru_wantipa }
 			}
 		}
 		swahili_coast_region = {
@@ -5238,39 +5242,15 @@ africa = {
 				upper_wami_province = { burunge idodomya mpwapwa sandawe }
 				zanzibar_province ={ zanzibar dar_es_salaam ras_mkumbuu }
 			}
-			somali_sea_area = {
-				majerteen_coast_sea_province = {
-					guardafui_channel cape_hafun cape_machar coast_punt ilig_cape mudug_coast
-					african_high_sea66 african_high_sea67 african_high_sea68 african_high_sea69
-				}
-				muqdisho_coast_sea_province = {
-					banaadir_coast shabelle_coast coast_jubaland cabdi_cape mareeg_coast warsheikh_coast cadde_cape
-					african_high_sea62 african_high_sea63 african_high_sea64 african_high_sea65
-				}
+			swahili_coast_sea_zones_area = {
 				gafana_coast_sea_province = {
 					pemba_island pemba_channel mombasa_island mouth_jubba giuba_island cape_kaambooni pate_island
 					african_high_sea59 african_high_sea60 african_high_sea61
 				}
 			}
-			madagascar_sea_area = {
-				betsimisaraka_coast_sea_province = {
-					manarivo_bay mouth_mananara mananjary_estuary betsimisaraka_coast
-					mauritius_island1 rodrigues_island reunion_island2
-
-					african_high_sea29 african_high_sea30 african_high_sea31 african_high_sea32
-					african_high_sea43 african_high_sea44 african_high_sea45 african_high_sea46 
-					african_high_sea47 african_high_sea48 african_high_sea49 african_high_sea50 
-					african_high_sea51 african_high_sea52 african_high_sea53 african_high_sea54 
-					african_high_sea55 african_high_sea56 african_high_sea57
-				}
-				tintingue_coast_sea_province = {
-					mouth_rianila tintingue_bay sainte_marie_island antongil_bay
-					african_high_sea33 african_high_sea34
-				}
-				madagascar_coast_sea_province = {
-					 est_cape mouth_benarivo antsiranana_bay ambre_cape ambaro_bay
-					african_high_sea35 african_high_sea36 african_high_sea37 african_high_sea38
-				}
+			east_african_island_area = {
+				comoros_province = { nzwani ngazidja maore }
+				outter_islands_province = { al_khadra seychelles }
 			}
 			mozambique_channel_area = {
 				comoros_coast_sea_province = {
@@ -5285,24 +5265,6 @@ africa = {
 					narindra_bay mahajambe_bay bombetoka_bay saint_andre_cape korika_bay barren_islands mania_delta
 					mozambique_channel3 mozambique_channel10
 				}
-				maroserana_coast_sea_province = {
-					islands_of_crabs saint_vincent_cape saint_augustin_bay mahafaly_coast masikora_cape 
-					sainte_marie_cape bay_tolanaro
-					mozambique_channel11 mozambique_channel12 african_high_sea25 african_high_sea26 
-					african_high_sea27 african_high_sea28
-				}
-				inhambane_coast_sea_province = {
-					zavora_point mouth_limpopo delagoa_bay bazaruto_archipelago barra_falsa_point 
-					inhambane_bay europa_island
-					mozambique_channel8 mozambique_channel9 mozambique_channel15
-					african_high_sea23
-				}
-				mozambique_coast_sea_province = {
-					lipobane_point moniga_estuary quelimane_river
-					mouth_zambezi beira_estuary sofala_bay
-					mozambique_channel5 mozambique_channel6 mozambique_channel7 mozambique_channel14 mozambique_channel13
-
-				}
 				ruvuma_coast_sea_province = {
 					cabo_delgado pemba_bay fernao_veloso_bay mozambique_island angoche_island
 					mozambique_channel1 mozambique_channel2 mozambique_channel4
@@ -5310,11 +5272,6 @@ africa = {
 			}
 		}
 		madagascar_region = {
-			east_african_island_area = {
-				comoros_province = { nzwani ngazidja maore }
-				mascarene_islands_province = { mauritius rodrigues reunion }
-				outter_islands_province = { al_khadra seychelles }
-			}
 			east_madagascar_area = {
 				antandroy_province = { andranosoa ambovontany fort_dauphin manambato talaky tsiveri }
 				antemoro_province = { vohipeno ikongo manabondro masindrano rasanga }
@@ -5339,6 +5296,35 @@ africa = {
 				maroserana_province = { toliara andasy_merine enijo soalara taolambiby }
 				menabe_province = { maneva bengy mahabo malaimbandy miandrivazo nosy_ampela rezoky tsimanandrafozana }
 			}
+			mascarene_islands_area = {
+				mascarene_islands_province = { mauritius rodrigues reunion }
+			}
+			madagascar_sea_area = {
+				betsimisaraka_coast_sea_province = {
+					manarivo_bay mouth_mananara mananjary_estuary betsimisaraka_coast
+					mauritius_island1 rodrigues_island reunion_island2
+
+					african_high_sea29 african_high_sea30 african_high_sea31 african_high_sea32
+					african_high_sea43 african_high_sea44 african_high_sea45 african_high_sea46 
+					african_high_sea47 african_high_sea48 african_high_sea49 african_high_sea50 
+					african_high_sea51 african_high_sea52 african_high_sea53 african_high_sea54 
+					african_high_sea55 african_high_sea56 african_high_sea57
+				}
+				tintingue_coast_sea_province = {
+					mouth_rianila tintingue_bay sainte_marie_island antongil_bay
+					african_high_sea33 african_high_sea34
+				}
+				madagascar_coast_sea_province = {
+					 est_cape mouth_benarivo antsiranana_bay ambre_cape ambaro_bay
+					african_high_sea35 african_high_sea36 african_high_sea37 african_high_sea38
+				}
+				maroserana_coast_sea_province = {
+					islands_of_crabs saint_vincent_cape saint_augustin_bay mahafaly_coast masikora_cape 
+					sainte_marie_cape bay_tolanaro
+					mozambique_channel11 mozambique_channel12 african_high_sea25 african_high_sea26 
+					african_high_sea27 african_high_sea28
+				}
+			}
 		}
 
 	}
@@ -5358,6 +5344,8 @@ africa = {
 				minya_province = { minya ashmunayn manfalut tahna connector_egypt9 north_western_desert }
 				qusiyya_province = { qus aswan edfu esna qena hiw kom_ombo connector_egypt6 connector_egypt8 connector_egypt10 connector_egypt12 connector_egypt16 eastern_desert western_desert }
 				red_sea_coast_province = { el_qoseir ras_gharib safaga saint_anthony saint_paul_anchorite north_eastern_desert }
+				oasis_province = { kharga bahariyya baris el_qasr qasr_farafra siwa jaghbub lake_el_rayan connector_egypt1 connector_egypt2 connector_egypt3 connector_egypt4 connector_egypt7 connector_libya7 connector_libya14 connector_libya16 calansho_sand_sea great_sand_sea great_sand_sea_et1 grand_erg_oriental_et1 }
+
 			}
 			cyrenaica_area = {
 				al_bayda_province = { al_bayda derna tmimi tobruk }
@@ -5367,6 +5355,9 @@ africa = {
 			sinai_area = {
 				al_jifar_province = { el_arish nekhel qatya warrada lake_bardawil northern_sinai_desert1 northern_sinai_desert2 negev_desert }
 				tih_province = { el_tor el_jundi faran nuweiba saint_katrine sinai_desert connector_egypt14 connector_egypt15 }
+			}
+			libyan_sea_area = {
+				libyan_sea_province = { krios_cape messara_bay coast_crete cape_al_hilal gulf_bomba bay_salum coast_marmarica libyan_sea1 libyan_sea2 libyan_sea3 }
 			}
 		}
 		macaronesia_region = {
@@ -5467,11 +5458,9 @@ africa = {
 				connector_libya4 connector_libya2 connector_libya5 connector_libya17 }
 				gourara_province = { timimoun adrar ain_salah charouine ain_salah_el_golea_corridor timimoun_qulaia_corridor tademait_plateau2 }
 				mzab_province = { ghardaia berriane el_guerrara guettara }
-				oasis_province = { kharga bahariyya baris el_qasr qasr_farafra siwa jaghbub lake_el_rayan connector_egypt1 connector_egypt2 connector_egypt3 connector_egypt4 connector_egypt7 connector_libya7 connector_libya14 connector_libya16 calansho_sand_sea great_sand_sea great_sand_sea_et1 grand_erg_oriental_et1 }
 				ouargla_province = { ouargla el_golea ngoussa ghardaia_el_golea_corridor ouargla_el_golea_corridor grand_erg_occidental_east1 }
 				saoura_province = { figuig bechar igli tabelbala taghit beni_sabih_tabelbala_corridor ksar_es_souk_bechar_corridor sahel_corridor08 tabelbala_charouine_corridor tabelbala_taghaza_corridor1 tabelbala_taghaza_corridor2 grand_erg_occidental el_djouf5 el_eglab_masif1
 				el_eglab_masif2 sahara_passage_et6 sahara_passage_et7 el_djouf_et5 el_eglab_massif_et1 moulouya_corridor2 }
-				erg_selima_province = { selima connector_egypt5 connector_egypt13 sahel_corridor26 sahel_corridor27 sahel_corridor28 sahel_corridor29 sahel_corridor30 erg_selima south_western_desert western_desert_et1 erg_selima_et3 sahara_passage_et13 }
 				touggourt_province = { touggourt asuf debila tamacine touggourt_ouargla_corridor grand_erg_occidental_east2 northern_tedemait }
 			}
 			western_sahara_area = {
@@ -5494,6 +5483,35 @@ africa = {
 					dakhlet_nouadhibou cape_timiris nouakchott_coast awlil_coast
 				}
 
+			}
+			central_mediterranean_sea_area = {
+				malta_coast_province = {
+					egadi_islands granitola_cape strait_malta gulf_gela george_bay 
+					lampedusa_island pantelleria_island
+				}
+				channel_sicily_province = {
+					cape_ben_sakka gulf_tunis cape_bon gulf_hammamet
+				}
+				gulf_gabes_province = {
+					kerkennah_islands coast_jeffara kaboudia_cape cape_tajura coast_tripolitania
+					gulf_gabes1 gulf_gabes2
+				}
+				gulf_sirte_province = {
+					cape_misurata sirte_coast west_bay_sidrah east_bay_sidrah cape_tawinis coast_cyrenaica
+					gulf_sirte1
+					central_mediterranean_sea1 central_mediterranean_sea2 central_mediterranean_sea3 central_mediterranean_sea4 central_mediterranean_sea5
+
+				}
+			}
+			alboran_sea_area = {
+				alboran_sea_province = { strait_of_gibraltar hoceima_bay cape_three_forks bay_oran costa_sol gulf_of_almeria }
+				western_mediterranean_sea_province = {
+					gulf_mazarron costa_blanca eivissa_coast cap_nau mallorca_coast
+					western_mediterraneans_sea1 western_mediterraneans_sea2
+				}
+				maghreb_coastal_sea_zones_province = {
+					cape_magroua cape_cherchell bay_algiers gulf_bejaia gulf_stora annaba_bay
+				}
 			}
 
 		}
@@ -5617,10 +5635,24 @@ africa = {
 				upper_mazowe_province = { zvongombe chisvingo massapa ruanga tsindi }
 				zumbo_province = { zumbo ancuase massanza muchena tembue kaphirintiwa}
 			}
+			zimbabwe_sea_zones_area = {
+				inhambane_coast_sea_province = {
+					zavora_point mouth_limpopo delagoa_bay bazaruto_archipelago barra_falsa_point 
+					inhambane_bay europa_island
+					mozambique_channel8 mozambique_channel9 mozambique_channel15
+					african_high_sea23
+				}
+				mozambique_coast_sea_province = {
+					lipobane_point moniga_estuary quelimane_river
+					mouth_zambezi beira_estuary sofala_bay
+					mozambique_channel5 mozambique_channel6 mozambique_channel7 mozambique_channel14 mozambique_channel13
+
+				}
+			}
 		}
 	}
 	west_africa = {
-		west_africa_region = {
+		guinea_region = {
 			akan_area = {
 				bono_province = { banda_ahenkro bondoukou begho sampa bono_manso dormaa techiman kintampo }
 				asante_province = { goaso fomena kumasi akwatia kibi abengourou }
@@ -5631,10 +5663,6 @@ africa = {
 				south_benin_province = { ughoton mahin benin uromi uzea ugbodu ukunzu }
 				niger_delta_province = { cabo_formoso brass nembe warri new_calabar forcados uvwie }
 				west_igbo_province = { azia onitsha amaigbo igbo_ukwu awka ozoro nnewi }
-			}
-			cameroon_highlands_area = {
-				cameroon_ridge_province = { gembu mankon banyo bankim foumban bafoussam cameroon_mountains }
-				cameroon_plateau_province = { tibati mbakaou mbam yoko yambasa batchingou }
 			}
 			cape_verde_area = {
 				cape_verde_province = { santo_antao sao_nicolao boa_vista santiago fogo }
@@ -5760,11 +5788,6 @@ africa = {
 			}
 		}
 		sahel_region = {
-			adamawa_area = {
-				central_adamawa_province = { yola bi_pi pindiga rei_bouba kontcha lau }
-				eastern_adamawa_province = { ngaoundere tignere poli mandingring ngaoundaye meiganga }
-				western_adamawa_province = { bauchi wukari kwararafa ibi pankshin nkambe lafia }
-			}
 			air_area = {
 				air_province = { iferouane assode agadez takedda in_gall arlit in_guezzam sahel_corridor01 sahel_corridor21 sahel_corridor22 tenere talak_desert_et2}
 				ader_province = { birni_ader tahoua deoule abalak kalfou south_talak }
@@ -5808,12 +5831,6 @@ africa = {
 				tibesti_province = { sherda zouar ain_galaka ounianga tekro qatrun bardai sahel_corridor03 sahel_corridor13 sahel_corridor19 sahel_corridor17 sahel_corridor15 sahel_corridor16 sahel_corridor18 tozeur_ghadames_corridor sahara_passage_et9 rabyanah_sand_sea_et1 erg_of_bilma_et1 erg_selima_et1 sahara_passage_et10}
 				mondo_province = { mondo cherfe ngousa moussoro }
 			}
-			logone_area = {
-				sao_province = { gaoui logone_birni moito dourbali bokoro }
-				bagirmi_province = { massenya tele_nugar bousso guelengdeng }
-				masa_province = { lame binder bongor goundi doba }
-				mandara_province = { mora_cam keraoua pouss maroua }
-			}
 			mali_area = {
 				old_manding_province = { niani dakadjalan kirina bamako dieribakoro siguiri kaba }
 				sosso_province = { sosso sagala mourdiah guire goumbou banamba }
@@ -5840,10 +5857,6 @@ africa = {
 				safare_province = { safare dogo soumpi korientze ras_el_ma gargando erg_aoukar_et2 }
 				macina_province = { macina niono sokolo dia tenenkou sanga kare }
 				djenne_province = { djenne san sanekuy bai kanibonzon }
-			}
-			wadai_area = {
-				wadai_province = { ouara abesehir guereda hadjer_haddid am_dam }
-				yao_province = { yao mongo oum_hadjer am_djemena djedaa lake_fitri }
 			}
 			west_mossi_area = {
 				ouagadougou_province = { ouagadougou koudougou leo po zorgho tiebele }
@@ -6022,6 +6035,17 @@ america = {
 				ogoki_province = { ogoki miniss atikokiwam matapesatakun petawanga pichinamei makokibatan kagianagami ogoki_uplands ogoki_lake lake_saint_joseph }
 				winisk_province = { winisk kinusheo wabuk asheweig tabasokwia shibogama wapikopa wunnumin wapitotem hudson_bay_lowlands winisk_uplands attawapiskat_lake lake_wunnumin }
 				washeo_province = { washeo niskibi shagamu ministik severn_uplands big_trout_lake }
+			}
+			keewatin_n_area = {
+				atikaki_province = { kinosao_sipi manigotagan atikaki mukutawa lake_winnipeg cross_lake }
+				oceko_sipiy_province = { oceko_sipiy mantago chitek kawinaw mechiso lake_st_martin cedar_lake }
+				pikwitonei_province = { pikwitonei anipitapiskow poskatinak silsby_lake_upland wekusko_upland sipiwesk_lake split_lake cormorant_lake talbot_lake }
+				nunatonowago_province = { nunatonowago kanaskipenaski kaministikowak echimamish eyapaysis lac_seul_upland hayes_river_upland island_lake gods_lake molson_lake oxford_lake }
+				numaykoos_province = { numaykoos mistutikumak opuskowin kapuskaywak churchill_river_upland granville_lake southern_indian_lake reindeer_lake_upland indian_lake_upland }
+				shethanei_province = { shethanei tadoule kapuskaypachik thlewiaza mistahi seal_river_upland nejanilini_uplands tadoule_lake }
+				kamisak_province = { kamisak machichi kichekokotic sowunusiske }
+				wapusk_province = { wapusk des_nedhe nunalla }
+				thaolintoa_province = { nueltin tatinnai thaolintoa tha_anne qamanituaq kazan_uplands northern_arctic_uplands arctic_archipelago dubawnt_lake angikuni_lake tulemalu_lake yathkyed_lake tebesjuak_lake aberdeen_lake lake_nueltin baker_lake tehek_lake lake_kasba }
 			}
 			james_bay_lowlands_area = {
 				attawapiskat_province = { attawapiskat ekwan otadaonanis patchepawapoka lakitusaki attawapiskat_lowlands }
@@ -6863,7 +6887,7 @@ america = {
 				}
 			}
 		}
-		louisiana_region = {
+		great_plains_region = {
 			louisiana_area = {
 				bulbancha_province = {
 					bulbancha bogue_chitto tangipahoa itihumma
@@ -6982,31 +7006,6 @@ america = {
 				pikwedina_province = { pikwedina kimodakiwi ajawewesitagun manomin gawakomitigweia mustinka }
 				tewaukon_province = { tewaukon maitomoni_ohe mekinock pembina minnewaukan mirixubaash devil_lake }
 				saakak_hukaahaanu_province = { saakak_hukaahaanu metigoshe itscheabine }
-			}
-			keewatin_n_area = {
-				atikaki_province = { kinosao_sipi manigotagan atikaki mukutawa lake_winnipeg cross_lake }
-				oceko_sipiy_province = { oceko_sipiy mantago chitek kawinaw mechiso lake_st_martin cedar_lake }
-				pikwitonei_province = { pikwitonei anipitapiskow poskatinak silsby_lake_upland wekusko_upland sipiwesk_lake split_lake cormorant_lake talbot_lake }
-				nunatonowago_province = { nunatonowago kanaskipenaski kaministikowak echimamish eyapaysis lac_seul_upland hayes_river_upland island_lake gods_lake molson_lake oxford_lake }
-				numaykoos_province = { numaykoos mistutikumak opuskowin kapuskaywak churchill_river_upland granville_lake southern_indian_lake reindeer_lake_upland indian_lake_upland }
-				shethanei_province = { shethanei tadoule kapuskaypachik thlewiaza mistahi seal_river_upland nejanilini_uplands tadoule_lake }
-				kamisak_province = { kamisak machichi kichekokotic sowunusiske }
-				wapusk_province = { wapusk des_nedhe nunalla }
-				thaolintoa_province = { nueltin tatinnai thaolintoa tha_anne qamanituaq kazan_uplands northern_arctic_uplands arctic_archipelago dubawnt_lake angikuni_lake tulemalu_lake yathkyed_lake tebesjuak_lake aberdeen_lake lake_nueltin baker_lake tehek_lake lake_kasba }
-			}
-			athabasca_area = {
-				sakwatamau_province = { sakwatamau tawatinaw ayahciyiniw_sakahikan kamspikihteek asiniwaciy saddle_hills_2 lodgepole_uplands utikuma_uplands saddle_hills lesser_slave_lake }
-				thilane_hot_ine_province = { thilane_hot_ine sakawyiniw ot_esh_otchore stony_mountain_uplands muskeg_upland birch_mountains }
-				athabasca_province = { athabasca kai_theli_ke_hot_inne tethul caribou_mountains lake_claire }
-				mikkwa_province = { mikkwa wabasca mushikitee ksituan buffalo_head_hills hawk_hills }
-				amisk_sipi_province = { amisk_sipi amisk_sakahikan wawaskesiwisakahikan }
-				namew_province = { namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw foster_upland reindeer_lake wollaston_lake amisk_lake lac_la_ronge }
-				sakitawahk_province = { sakitawahk methye missinipi kawatinook mostoos_upland mid_boreal_upland deschambault_lake dore_lake montreal_lake churchill_lake primrose_lake }
-				gani_koe_province = { gani_koe tazin tipinuwak misekumaw athabasca_plains cree_lake black_lake lake_athabasca tazin_lake }
-				tu_nedhe_province = { klewi tu_nedhe tucho tidee kakisa horn_plateau }
-				wecho_province = { wecho soombak_e utsingi kahochella coppermine_river_upland great_slave_lake artillery_lake napaktulik_lake contwoyto_lake mackay_lake point_lake lac_de_gras }
-				thubun_province = { thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai eynard_upland nonacho_lake }
-				dubawnt_province = { thoa dubawnt abitau kasba thelon_river_upland robins_lake_upland wholdaia_lake snowbird_lake selwyn_lake }
 			}
 		}
 		mesoamerica_region = {
@@ -7223,7 +7222,54 @@ america = {
 					ekab labcah zama coba chakan_yucatan jootsuuk
 				}
 			}
-
+			
+			xalisco_area = {
+				tochpan_province = {
+					tlayolan tochpan tlamazolan sayula
+				}
+				cuzalapa_province = {
+					cuzalapa amollan cocollan cutzalan
+				}
+				tomatlan_province = {
+					tomatlan xihutla zihuatlan melahuacan revillagigedo_islands
+				}
+				cuauhchinanco_province = {
+					cuauhchinanco tlalpan amaxacotlan cuautla
+				}
+				autlan_province = {
+					autlan tenamaxtlan ameca huitzquilic etzatlan tala_mx
+				}
+				ahuacatlan_province = {
+					ahuacatlan tzapotzingo hostoticpac hostotipaquillo
+				}
+				aztatlan_province = {
+					xalisco magdalenas aztatlan sentispac
+				}
+				tonala_province = {
+					tonala tlaxomulco chapallan acatic ixtlahuacan coinan
+					chapala_lake
+				}
+				tepactitlan_province = {
+					mextiacan mitic metzquititlan xalostotitlan tepactitlan yahualican
+				}
+			}
+			mesoamerica_sea_zones_area = {				
+				xalisco_coast_sea_zones_province = {
+					huizache_lagoon
+					nayarit_coast north_aztatlan guayabitos_coast
+					tenacatita_bay chamela_bay banderas_bay
+					east_pacific_high_sea1 east_pacific_high_sea19 east_pacific_high_sea20
+				}
+				huaxyacac_coast_sea_zones_province = {
+					tonala_coast tapachollan_coast tehuantepec_isthmus huamelula_coast huatulco_bays comata_cape 
+					corralero_lagoon
+					east_pacific_high_sea6 east_pacific_high_sea7 east_pacific_high_sea8
+				}
+				pacific_mesoamerica_sea_zones_province = {
+					maruata_coast coahuayana_delta nuxco_lagoon petacalco_bay chantengo_lagoon acapulco_bay
+					east_pacific_high_sea2 east_pacific_high_sea3 east_pacific_high_sea4 east_pacific_high_sea5
+				}
+			}
 		}
 		central_america_region = {
 			peten_area = {
@@ -7336,15 +7382,6 @@ america = {
 					east_pacific_high_sea32	east_pacific_high_sea16	east_pacific_high_sea17
 					east_pacific_high_sea18
 				}
-				huaxyacac_coast_sea_zones_province = {
-					tonala_coast tapachollan_coast tehuantepec_isthmus huamelula_coast huatulco_bays comata_cape 
-					corralero_lagoon
-					east_pacific_high_sea6 east_pacific_high_sea7 east_pacific_high_sea8
-				}
-				pacific_mesoamerica_sea_zones_province = {
-					maruata_coast coahuayana_delta nuxco_lagoon petacalco_bay chantengo_lagoon acapulco_bay
-					east_pacific_high_sea2 east_pacific_high_sea3 east_pacific_high_sea4 east_pacific_high_sea5
-				}
 				kuskatan_coast_sea_zones_province = {
 					kakol_kiej_coast itzcuintlan_coast
 					cobanos_coast jiquilisco_bay fonseca_bay poneloya_coast papagayo_bay
@@ -7361,43 +7398,13 @@ america = {
 		}
 		aridoamerica_region = {
 			natahende_area = {
- mah_hom_province = { hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
- hoyu_ao_he_province = { hoyu_ao_he atarque tinde }
- hotoanaohe_province = { kiowa hotoanaohe wahin_wakpa apispaha }
- chinali_province = { chinali honih_hiyo_he iriirakiicuhat }
+				mah_hom_province = { hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
+				hoyu_ao_he_province = { hoyu_ao_he atarque tinde }
+				hotoanaohe_province = { kiowa hotoanaohe wahin_wakpa apispaha }
+				chinali_province = { chinali honih_hiyo_he iriirakiicuhat }
 				natahende_province = {
 					tsesh_ke_shende tcha_shka_ozhaye kwahada tucumcari natahende
 					guhlkahende chlaande nitahende natages
-				}
-			}
-			xalisco_area = {
-				tochpan_province = {
-					tlayolan tochpan tlamazolan sayula
-				}
-				cuzalapa_province = {
-					cuzalapa amollan cocollan cutzalan
-				}
-				tomatlan_province = {
-					tomatlan xihutla zihuatlan melahuacan revillagigedo_islands
-				}
-				cuauhchinanco_province = {
-					cuauhchinanco tlalpan amaxacotlan cuautla
-				}
-				autlan_province = {
-					autlan tenamaxtlan ameca huitzquilic etzatlan tala_mx
-				}
-				ahuacatlan_province = {
-					ahuacatlan tzapotzingo hostoticpac hostotipaquillo
-				}
-				aztatlan_province = {
-					xalisco magdalenas aztatlan sentispac
-				}
-				tonala_province = {
-					tonala tlaxomulco chapallan acatic ixtlahuacan coinan
-					chapala_lake
-				}
-				tepactitlan_province = {
-					mextiacan mitic metzquititlan xalostotitlan tepactitlan yahualican
 				}
 			}
 			baja_area = {
@@ -7581,12 +7588,6 @@ america = {
 				culiacan_coast_sea_zones_province = {
 					loreto_bay talchichintle_island ohuira_bay agiabampo_bay huivulau_bay mazatlan_coast lucenilla_peninsula
 				}
-				xalisco_coast_sea_zones_province = {
-					huizache_lagoon
-					nayarit_coast north_aztatlan guayabitos_coast
-					tenacatita_bay chamela_bay banderas_bay
-					east_pacific_high_sea1 east_pacific_high_sea19 east_pacific_high_sea20
-				}
 				lower_california_coast_sea_zones_province = {
 					pulmo_cape comondu_coast eugenia_cape hares_eye_lagoon
 					east_pacific_high_sea21 east_pacific_high_sea22 east_pacific_high_sea23 east_pacific_high_sea24 east_pacific_high_sea25
@@ -7656,6 +7657,9 @@ america = {
 				}
 				kavagmiut_province = {
 					sinjik nachirvik kigluaik anakovik kugirukuk imuruk_basin imuruk_lake
+				}
+				yupighyt_province = { 
+					sivuqaq savoonga kitagnaq st_matthew
 				}
 			}
 			alaxsxaq_area = {
@@ -7757,6 +7761,20 @@ america = {
 				dehcho_province = {
 					ford_liard nahanni fort_simpson jean_marie_river wrigley dehcho_plains dehcho_uplands dehcho_range trout_lake
 				}
+			}			
+			athabasca_area = {
+				sakwatamau_province = { sakwatamau tawatinaw ayahciyiniw_sakahikan kamspikihteek asiniwaciy saddle_hills_2 lodgepole_uplands utikuma_uplands saddle_hills lesser_slave_lake }
+				thilane_hot_ine_province = { thilane_hot_ine sakawyiniw ot_esh_otchore stony_mountain_uplands muskeg_upland birch_mountains }
+				athabasca_province = { athabasca kai_theli_ke_hot_inne tethul caribou_mountains lake_claire }
+				mikkwa_province = { mikkwa wabasca mushikitee ksituan buffalo_head_hills hawk_hills }
+				amisk_sipi_province = { amisk_sipi amisk_sakahikan wawaskesiwisakahikan }
+				namew_province = { namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw foster_upland reindeer_lake wollaston_lake amisk_lake lac_la_ronge }
+				sakitawahk_province = { sakitawahk methye missinipi kawatinook mostoos_upland mid_boreal_upland deschambault_lake dore_lake montreal_lake churchill_lake primrose_lake }
+				gani_koe_province = { gani_koe tazin tipinuwak misekumaw athabasca_plains cree_lake black_lake lake_athabasca tazin_lake }
+				tu_nedhe_province = { klewi tu_nedhe tucho tidee kakisa horn_plateau }
+				wecho_province = { wecho soombak_e utsingi kahochella coppermine_river_upland great_slave_lake artillery_lake napaktulik_lake contwoyto_lake mackay_lake point_lake lac_de_gras }
+				thubun_province = { thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai eynard_upland nonacho_lake }
+				dubawnt_province = { thoa dubawnt abitau kasba thelon_river_upland robins_lake_upland wholdaia_lake snowbird_lake selwyn_lake }
 			}
 			alaska_sea_zones_area = {
 				haida_sea_zones_province = {
@@ -9196,7 +9214,7 @@ oceania = {
 				nawu_province = { nawu banggarla willeuroo gilles_lake gairdner_lake nonga kadu ceduna wirangu }
 				tidni_province = { tidni bookabie yalata windakan wanbiri ngandatha ikala mirning malba buljigu great_victoria_desert maurice_lake }
 			}
-			western_australia_high_sea_zones_area = { #loc
+			western_australia_high_sea_zones_area = {
 				wardandi_yoberrore_province_coast = {
 					great_australian_bight yeagarup_coast flinders_bay deepdene_coast bunbury_coast perth_bay australia_highseas_51 australia_highseas_52
 					australia_highseas_53 australia_highseas_54 australia_highseas_55 }
@@ -9353,8 +9371,8 @@ oceania = {
 			}
 		}
 	}
-	polynesia = {
-		hawaii_region = {
+	pacific_islands = {
+		polynesia_region = {
 			hawaii_area = {
 				hawaii_province = {
 					kohala kona ka_u hilo
@@ -9391,8 +9409,7 @@ oceania = {
 					hawaii_high_sea04 hawaii_high_sea05 hawaii_high_sea06 hawaii_high_sea09
 				}
 			}
-		}
-		aono_raina_region = { #https://en.wikipedia.org/wiki/Line_Islands
+			#https://en.wikipedia.org/wiki/Line_Islands
 			aono_raina_area = {
 				aono_raina_province = {
 					kiritimati kiritimati_atoll tabuaeran teraina palmyra_atoll kingman_reff malden starbuck caroline
@@ -9421,8 +9438,7 @@ oceania = {
 					te_henua_enana_high_sea_1 te_henua_enana_high_sea_2 te_henua_enana_high_sea_3 te_henua_enana_high_sea_4 te_henua_enana_high_sea_5 te_henua_enana_high_sea_6 te_henua_enana_high_sea_7 te_henua_enana_high_sea_8
 				}
 			}
-		}
-		tuhaa_pae_region = {#Tuha'a Pae or Austral Islands https://en.wikipedia.org/wiki/Austral_Islands
+			#Tuha'a Pae or Austral Islands https://en.wikipedia.org/wiki/Austral_Islands
 			kuki_airani_area = {#---Kūki ‘Airani / Cook Islands --- https://en.wikipedia.org/wiki/Cook_Islands
 				kuki_airani_province = {
 					avarau aitutaki_atoll manuae_atoll_cook nga_pu_toru rarotonga_atoll mangaia
@@ -9467,8 +9483,7 @@ oceania = {
 					raro_matai_ma_high_sea_1 raro_matai_ma_high_sea_2 raro_matai_ma_high_sea_3 raro_matai_ma_high_sea_4 raro_matai_ma_high_sea_5 raro_matai_ma_high_sea_6 raro_matai_ma_high_sea_7
 				}
 			}
-		}
-		tuamotu_region = {#Tuamotu Archipelago https://en.wikipedia.org/wiki/Tuamotus
+			#Tuamotu Archipelago https://en.wikipedia.org/wiki/Tuamotus
 			tuamotu_area = {
 				mangareva_province = {
 					temoe_atoll mangareva morane_atoll
@@ -9604,9 +9619,8 @@ oceania = {
 					
 				}
 			}
-		}
 
-		rawaki_region = {#Rawaki https://en.wikipedia.org/wiki/Phoenix_Islands
+			#Rawaki https://en.wikipedia.org/wiki/Phoenix_Islands
 			rawaki_area = {
 				rawaki_province = {
 					orona_atoll manra_atoll kanton_atoll
@@ -9622,8 +9636,8 @@ oceania = {
 					rawaki_high_sea_11 rawaki_high_sea_12 rawaki_high_sea_13 rawaki_high_sea_14
 				}
 			}
-		}
-		tuvalu_region = {#Tuvalu --- https://en.wikipedia.org/wiki/Tuvalu
+				
+			#Tuvalu --- https://en.wikipedia.org/wiki/Tuvalu
 			tuvalu_area = {
 				tuvalu_province = {
 					nanumanga niutao
@@ -9648,8 +9662,7 @@ oceania = {
 					tuvalu_high_sea_1 tuvalu_high_sea_2 tuvalu_high_sea_3 tuvalu_high_sea_4 tuvalu_high_sea_5 tuvalu_high_sea_6 tuvalu_high_sea_7 tuvalu_high_sea_8 tuvalu_high_sea_9 tuvalu_high_sea_10 tuvalu_high_sea_11 tuvalu_high_sea_12
 				}
 			}
-		}
-		tonga_region = {#Tonga ---- https://en.wikipedia.org/wiki/Tonga
+			#Tonga ---- https://en.wikipedia.org/wiki/Tonga
 			tonga_area = {
 				tongatapu_province = {
 					tongatapu tongatapu_atoll eua
@@ -9682,9 +9695,8 @@ oceania = {
 					niue_high_sea_1 niue_high_sea_2 niue_high_sea_3 niue_high_sea_4
 				}
 			}
-		}
-
-		samoa_region = {#Samoa --- https://en.wikipedia.org/wiki/Samoa
+				
+			#Samoa --- https://en.wikipedia.org/wiki/Samoa
 			#Tokelau --- https://en.wikipedia.org/wiki/Tokelau
 			tokelau_area = {
 				tokelau_province = {
@@ -9711,9 +9723,8 @@ oceania = {
 				}
 			}
 		}
-	}
-	micronesia = {
-		nanpo_region = { #https://en.wikipedia.org/wiki/Nanp%C5%8D_Islands
+		micronesia_region = {
+			#https://en.wikipedia.org/wiki/Nanp%C5%8D_Islands
 			nanpo_area = {
 				iwo_jima_province = {
 					iwo_jima kita_iwo_jima
@@ -9731,8 +9742,7 @@ oceania = {
 					ogasawara_islands_high_sea_1 ogasawara_islands_high_sea_2 ogasawara_islands_high_sea_3 ogasawara_islands_high_sea_4 ogasawara_islands_high_sea_5 ogasawara_islands_high_sea_6 ogasawara_islands_high_sea_7 ogasawara_islands_high_sea_8 ogasawara_islands_high_sea_9
 				}
 			}
-		}
-		majel_region = { #https://en.wikipedia.org/wiki/Marshall_Islands
+			#https://en.wikipedia.org/wiki/Marshall_Islands
 			ratak_area = {
 				ratak_province = {
 					anen_kio_atoll #wake island
@@ -9762,12 +9772,11 @@ oceania = {
 				}
 				mili_sea_zones_province = {
 					mili_coast arno_coast wotje_coast_2 aur_coast
-					 ratak_high_sea_5 ratak_high_sea_6
+					ratak_high_sea_5 ratak_high_sea_6
 				}
 			}
-		}
 
-		belau_region = { #https://en.wikipedia.org/wiki/Palau
+			#https://en.wikipedia.org/wiki/Palau
 			belau_area = {
 				belau_province = {
 					angaur belau belau_atoll
@@ -9803,8 +9812,8 @@ oceania = {
 					yap_high_sea_1 yap_high_sea_2 yap_high_sea_3 yap_high_sea_4 yap_high_sea_5 yap_high_sea_6 yap_high_sea_7 yap_high_sea_8 yap_high_sea_9 yap_high_sea_10 yap_high_sea_11 yap_high_sea_12
 				}
 			}
-		}
-		chuuk_region = { #https://en.wikipedia.org/wiki/Chuuk_State
+				
+			#https://en.wikipedia.org/wiki/Chuuk_State
 			chuuk_area = {
 				chuuk_province = {
 					hall_atoll namonuito_atoll chuuk_lagoon chuuk losap_atoll namoluk_atoll satawan_atoll
@@ -9836,8 +9845,8 @@ oceania = {
 					kosrae_high_sea_1 kosrae_high_sea_2 kosrae_high_sea_3 kosrae_high_sea_4
 				}
 			}
-		}
-		tungaru_region = { #https://en.wikipedia.org/wiki/Gilbert_Islands
+				
+			#https://en.wikipedia.org/wiki/Gilbert_Islands
 			tungaru_area = {
 				tungaru_province = {
 					butaritari_atoll abaiang_atoll
@@ -9861,10 +9870,22 @@ oceania = {
 					tungaru_high_sea_1 tungaru_high_sea_2 tungaru_high_sea_3 tungaru_high_sea_4 tungaru_high_sea_11
 				}
 			}
+			
+			nauru_area = {
+				nauru_province = {
+					nauru
+				}
+			}
+			nauru_sea_zones_area = {
+				nauru_coastal_sea_zones_province = {
+					nauru_coast
+					
+					nauru_high_sea_1 nauru_high_sea_2 nauru_high_sea_3 nauru_high_sea_4 nauru_high_sea_5
+				}
+			}
 		}
-	}
-	melanesia = {
-		solomon_islands_region = {
+		melanesia_region = {
+		
 			tinputz_area = {
 				tinputz_province = {
 					rotokas bannoni naasioi tinputz mono buka
@@ -9950,8 +9971,8 @@ oceania = {
 					mu_ngava_high_sea_5
 				}
 			}
-		}
-		temotu_region = {#Santa Cruz Islands https://en.wikipedia.org/wiki/Santa_Cruz_Islands
+			
+			#Santa Cruz Islands https://en.wikipedia.org/wiki/Santa_Cruz_Islands
 			temotu_area = {
 				temotu_province = {
 					nendo vanikoro duff_islands
@@ -9975,8 +9996,8 @@ oceania = {
 					tikopia_high_sea_1 tikopia_high_sea_2 mwotlap_high_sea_5
 				}
 			}
-		}
-		vanuatu_region = {#Vanuatu ----- https://en.wikipedia.org/wiki/Vanuatu
+			
+			#Vanuatu ----- https://en.wikipedia.org/wiki/Vanuatu
 			vanuatu_area = {
 				valpei_province = {
 					valpei akei tamambo sakao tolomako
@@ -10010,8 +10031,8 @@ oceania = {
 					mwotlap_high_sea_1 mwotlap_high_sea_2  mwotlap_high_sea_8 
 				}
 			}
-		}
-		fiji_region = {#Fiji ---- https://en.wikipedia.org/wiki/Fiji
+			
+			#Fiji ---- https://en.wikipedia.org/wiki/Fiji
 			fiji_area = {
 				fiji_province = {
 					rotuma rotuma_atoll
@@ -10037,8 +10058,8 @@ oceania = {
 					fiji_high_sea_1 fiji_high_sea_2 fiji_high_sea_10 fiji_high_sea_11 fiji_high_sea_12
 				}
 			}
-		}
-		kanaky_region = {#Kanaky / New Caledonia https://en.wikipedia.org/wiki/New_Caledonia
+			
+			#Kanaky / New Caledonia https://en.wikipedia.org/wiki/New_Caledonia
 			kanaky_area = {
 				kanaky_province = {
 					tiri paici ajie xaracuu cemuhi yuanga numee nyelayu ndrumbea fwai
@@ -10060,22 +10081,8 @@ oceania = {
 					bellona_high_sea_1 bellona_high_sea_2 bellona_high_sea_3 bellona_high_sea_4 bellona_high_sea_5 bellona_high_sea_6 bellona_high_sea_7
 				}
 			}
-		}
-		nauru_region = {
-			nauru_area = {
-				nauru_province = {
-					nauru
-				}
-			}
-			nauru_sea_zones_area = {
-				nauru_coastal_sea_zones_province = {
-					nauru_coast
-					
-					nauru_high_sea_1 nauru_high_sea_2 nauru_high_sea_3 nauru_high_sea_4 nauru_high_sea_5
-				}
-			}
-		}
-		papua_region = {
+			
+			
 			bismarck_area = {
 				lamogai_province = {
 					mamusi lamogai bola kaulong
@@ -10205,7 +10212,7 @@ oceania = {
 				iwur_province = {
 					aekyom kaeti muyu iwur tsaukambo kombai bayono awyu
 
-					central_range_mountains
+					central_range_mountains central_range_mountains_et
 					paniai_lake
 					aghu_jungle konai_jungle
 				}
