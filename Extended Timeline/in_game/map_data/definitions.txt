@@ -1050,7 +1050,7 @@
 				girona_province = { girona besalu castellon_ampurias ripoll sant_feliu }
 				new_catalonia_province = { tarragona flix lleida montblanc tarrega tortosa }
 				osona_province = { vic berga cardona cervera manresa }
-				rosello_province = { perpignan prades puigcerda lagoon_of_salses south_eastern_pyrenees }
+				rosello_province = { perpignan prades puigcerda odello lagoon_of_salses south_eastern_pyrenees }
 				urgell_province = { seu_durgell agramunt andorra_la_vella balaguer talarn vielha central_pyrenees south_western_pyrenees3 }
 			}
 			valencia_area = {
@@ -1273,8 +1273,8 @@
 				buda_province = { buda esztergom komarom tata }
 				fejer_province = { fehervar adony kalocsa papa solt veszprem }
 				somogy_province = { somogyvar csurgo kaposvar segesd lake_balaton}
-				sopron_province = { sopron gyor kapuvar magyarovar lake_neusiedl }
-				vas_province = { vasvar kormend olsnica szombathely }
+				sopron_province = { sopron gyor kapuvar magyarovar kismarton lake_neusiedl }
+				vas_province = { vasvar kormend olsnica szombathely nemetujvar }
 				zala_province = { zalavar cakovec nagykanizsa zalaegerszeg }
 			}
 			transylvania_area = {
@@ -1860,7 +1860,7 @@
 				zagore_province = { plovdiv kostenets kran stipon strelcha tsepina }
 			}
 			albania_area = {
-				albania_province = { durres ballsh berat debar devol elbasan kavaje kruje tirana }
+				albania_province = { durres ballsh berat debar devol elbasan kavaje kruje tirana peshkopi }
 				illyria_province = { shkoder dukagjini has koman lezha }
 				north_epirus_province = { avlonya argyrokastro butrint kleisoura_epirus konitsa pindus_mountains6 }
 			}
