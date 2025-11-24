@@ -9,11 +9,8 @@
     "relationships" : [],
     "game_custom_data" : {
         "replace_paths" : [
-			"loading_screen/common/defines",
-			"main_menu/setup/start",
-			"in_game/setup/countries",
-			"main_menu/common/named_colors",
-			"main_menu/localization/english"
-		]
+            "main_menu/common/defines",
+            "main_menu/setup/start"
+        ]
     }
 }
